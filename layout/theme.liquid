@@ -1,0 +1,16 @@
+<html>
+    <head>
+        {{ content_for_header }}
+        {%- assign common_css_url = 'common.css' | asset_url -%}
+        {%- render 'stylesheet', name: common_css_url -%}
+    </head>
+    <body>
+        <header>
+                {% section "announcement-bar" %}
+                {%- section 'navigation' -%}
+        </header>
+        <main id="main" role="main">
+            {{content_for_layout}}
+        </main>
+    </body> 
+</html>

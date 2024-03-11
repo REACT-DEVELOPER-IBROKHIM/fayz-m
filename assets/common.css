@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 400;
+  src: url(Syne-Regular.woff) format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Syne-Medium.woff) format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 600;
+  src: url(Syne-SemiBold.woff) format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  src: url(Syne-Bold.woff) format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 800;
+  src: url(Syne-ExtraBold.woff) format("woff");
+  font-display: swap;
+}
+:root {
+  --dark: #1E1E1E;
+  --light: #FFFFFF;
+  --secondary: #f7f7f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1720px;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+section[data-color-scheme=light] {
+  background-color: var(--light);
+  color: var(--dark) !important;
+}
+
+section[data-color-scheme=dark] {
+  background-color: var(--dark);
+  color: var(--light) !important;
+}

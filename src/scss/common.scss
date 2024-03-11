@@ -1,0 +1,39 @@
+@import "fonts";
+@import "variables";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1720px;
+    padding: 0 22px;
+    margin: 0 auto;
+}
+
+.visually-hidden{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+section[data-color-scheme="light"]{
+    background-color: var(--light);
+    color: var(--dark) !important;
+}
+
+section[data-color-scheme="dark"]{
+    background-color: var(--dark);
+    color: var(--light) !important;
+}

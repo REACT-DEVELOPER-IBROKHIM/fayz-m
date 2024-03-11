@@ -1,0 +1,80 @@
+{%- render 'stylesheet', name: 'navigation' -%}
+
+<nav id="navigation" class="navigation" role="navigation">
+    <div class="container">
+        <div class="navigation__wrapper" role="img">
+            <a class="navigation__logo" href={{ '/' }}>
+                {% if section.settings.navigation_logo %}
+                    {{section.settings.navigation_logo | image_url: width: 200 | image_tag: alt: section.settings.navigation_logo_alt_text }} 
+                {% endif %}
+                <h1 class="visually-hidden">{{ section.settings.navigation_logo_placeholder_text }}</h1>
+            </a>
+            <ul role="list" class="navigation__menu">
+            {% for link in linklists['main-menu'].links %}
+                <li role="listitem" class="menu-item">
+                    <a role="link" class="menu-item__link" href="{{ link.url }}">{{ link.title | upcase }}</a>
+                    {%- if link.links != blank -%}
+                        <ul class="submenu">
+                        {%- for child_link in link.links -%}
+                            <li role="listitem" class="submenu-item">
+                                <a role="link" class="submenu-item__link" href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>
+                                    {{ child_link.title }}
+                                </a>
+                            </li>
+                        {%- endfor -%}
+                        </ul>
+                    {%- endif -%}
+                </li>
+            {% endfor %}
+            </ul>
+            <div class="navigation__address">
+                {% if section.settings.store_phone_number %}
+                    <a href="tel:{{ section.settings.store_phone_number }}">{{ section.settings.store_phone_number }}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</nav> 
+
+{% schema %}
+{
+  "name": "navigation",
+  "settings": [
+    {
+        "type" : "text",
+        "id": "navigation_logo_placeholder_text",
+        "label": "Navigation logo placeholder SEO"
+    },
+    {
+        "type": "image_picker",
+        "id": "navigation_logo",
+        "label": "Navigation logo"
+    },
+    {
+        "type" : "text",
+        "id": "navigation_logo_alt_text",
+        "label": "Navigation logo description"
+    },
+    {
+        "type": "text",
+        "id": "store_phone_number",
+        "label": "Store phone number"
+    },
+    {
+        "type": "text",
+        "id" : "navigation_starting_hours",
+        "label": "Store starting hours"
+    },
+    {
+        "type": "text",
+        "id" : "navigation_ending_hours",
+        "label": "Store ending hours"
+    }
+  ],
+  "presets": [
+    {
+      "name": "navigation"
+    }
+  ]
+}
+{% endschema %}

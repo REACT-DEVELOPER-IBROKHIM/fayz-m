@@ -1,0 +1,42 @@
+.navigation{
+    font-family: "Syne";
+}
+
+.navigation__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__logo{
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.navigation__logo > img{
+    height: 50px;
+    object-fit: contain;
+}
+
+.navigation__menu{
+    display: flex;
+    gap: 0 100px;
+}
+
+.menu-item{
+    padding: 24px 0;
+}
+
+.menu-item__link{
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.submenu{
+    display: none;
+}
+
+.navigation__address{
+    display: flex;
+    align-items: center;
+}
