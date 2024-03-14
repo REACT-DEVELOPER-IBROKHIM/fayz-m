@@ -4,9 +4,19 @@
       "type": "banner",
       "settings": {
       }
+    },
+    "whatwe-do": {
+      "type": "whatwe-do",
+      "settings": {}
+    },
+    "products-swiper": {
+      "type": "products-swiper",
+      "settings": {}
     }
   },
   "order": [
-    "banner"
+    "banner",
+    "whatwe-do",
+    "products-swiper"
   ]
 }
