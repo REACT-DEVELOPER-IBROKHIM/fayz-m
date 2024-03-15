@@ -4,11 +4,17 @@
 <section  id="whatwe-do" class="whatwe-do">
     <div class="container">
         <div class="whatwe-do--box">
-            <h2>MULTI-SECTOR TEXTILE COMPANY</h2>
+           {% if section.settings.whatwedo_title %}
+                <h2>{{section.settings.whatwedo_title}}</h2>
+           {% endif %}
             <div class="whatwe-do--content" >
-                <p>How we work: Seed production, raw cotton production, cotton processing, oil production, flour production, cotton spinning, fabric production, ready-made knitwear and animal husbandry.</p>
+                {% if section.settings.whatwedo_text %}
+                    <p>{{ section.settings.whatwedo_text }}</p>
+                {% endif %}
                 <button class="btn"> 
-                    <span>BETTER KNOW US</span>
+                    {% if section.settings.whatwedo_btn %}
+                        <span>{{ section.settings.whatwedo_btn }}</span>
+                    {% endif %}
                     <i>&UpperRightArrow;</i>
                 </button>
             </div>
@@ -20,7 +26,30 @@
 {
     "name": "whatwe-do",
     "settings": [
-        
+        {
+            "type": "checkbox",
+            "id": "sow_whatwe_do",
+            "label": "Show What we do",
+            "default": true
+        },
+        {
+            "type": "text",
+            "id" : "whatwedo_title",
+            "label": "What we do title",
+            "default": "MULTI-SECTOR TEXTILE COMPANY"
+        },
+        {
+            "type": "text",
+            "id": "whatwedo_text",
+            "label": "What we do text",
+            "default": "How we work: Seed production, raw cotton production, cotton processing, oil production, flour production, cotton spinning, fabric production, ready-made knitwear and animal husbandry."
+        },
+        {
+            "type": "text",
+            "id": "whatwedo_btn",
+            "label": "What we do text",
+            "default": "BETTER KNOW US"
+        }
     ],
     "presets": [
         {

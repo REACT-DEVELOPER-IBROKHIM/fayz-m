@@ -4,4 +4,4 @@ development:
   store: c29d06-cd.myshopify.com
   ignore_files:
     - config/settings_data.json
-    # - templates/*.json # disable this rule if you need to add new json template to the theme
+    - templates/*.json # disable this rule if you need to add new json template to the theme
