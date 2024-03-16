@@ -5,24 +5,42 @@
       "settings": {
       }
     },
-    "whatwe-do": {
+    "whatwe_do_QHqNgU": {
       "type": "whatwe-do",
-      "settings": {}
+      "settings": {
+        "sow_whatwe_do": true,
+        "whatwedo_title": "MULTI-SECTOR TEXTILE COMPANY",
+        "whatwedo_text": "How we work: Seed production, raw cotton production, cotton processing, oil production, flour production, cotton spinning, fabric production, ready-made knitwear and animal husbandry.",
+        "whatwedo_btn": "BETTER KNOW US"
+      }
     },
-    "products-swiper": {
-      "type": "products-swiper",
-      "settings": {}
-    "partners":{
+    "partners": {
       "type": "partners",
-      "settings":{
-          
+      "blocks": {
+        "partners_image_cjVFpn": {
+          "type": "partners_image",
+          "settings": {
+            "partners_image": "shopify:\/\/shop_images\/happywear.svg"
+          }
+        },
+        "partners_image_q4GdgH": {
+          "type": "partners_image",
+          "settings": {
+            "partners_image": "shopify:\/\/shop_images\/vanue.svg"
+          }
+        }
+      },
+      "block_order": [
+        "partners_image_cjVFpn",
+        "partners_image_q4GdgH"
+      ],
+      "settings": {
       }
     }
   },
   "order": [
     "banner",
-    "whatwe-do",
-    "products-swiper"
+    "whatwe_do_QHqNgU",
     "partners"
   ]
 }
