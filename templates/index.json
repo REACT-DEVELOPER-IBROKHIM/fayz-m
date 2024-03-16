@@ -4,9 +4,16 @@
       "type": "banner",
       "settings": {
       }
+    },
+    "partners":{
+      "type": "partners",
+      "settings":{
+          
+      }
     }
   },
   "order": [
-    "banner"
+    "banner",
+    "partners"
   ]
 }
