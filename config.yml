@@ -1,7 +1,7 @@
 development:
-  password: shptka_21891e56bb9afcff8db5b6be1e19c48e
-  theme_id: "135260635332"
+  password: shptka_e659220c9b78181292bfb1d4d52edf63
+  theme_id: "135260733636"
   store: c29d06-cd.myshopify.com
   ignore_files:
     - config/settings_data.json
-    # - templates/*.json # disable this rule if you need to add new json template to the theme
+    - templates/*.json # disable this rule if you need to add new json template to the theme
