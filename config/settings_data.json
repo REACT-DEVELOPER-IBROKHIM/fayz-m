@@ -4,9 +4,9 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "announcement_bar_content": "<p>Announcement bar content<\/p>",
+          "announcement_bar_content": "<p>Contact us for better and great deals. <a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact\">Contact<\/a><\/p>",
           "announcement_bar_show": true,
-          "announcement_bar_color_select": "light"
+          "announcement_bar_color_select": "dark"
         }
       },
       "navigation": {
