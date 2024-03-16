@@ -1,0 +1,17 @@
+.partners-wrapper{
+    margin-top: 100px;
+    width: 100%;
+
+}
+.partners-title{
+    font-size: 40px;
+    font-family: "Syne";
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    text-align: center;
+    color: var(--dark);
+}
+.partners__card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
