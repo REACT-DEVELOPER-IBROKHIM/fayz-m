@@ -12,11 +12,17 @@
     "products-swiper": {
       "type": "products-swiper",
       "settings": {}
+    "partners":{
+      "type": "partners",
+      "settings":{
+          
+      }
     }
   },
   "order": [
     "banner",
     "whatwe-do",
     "products-swiper"
+    "partners"
   ]
 }
