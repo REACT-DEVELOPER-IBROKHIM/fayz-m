@@ -1,12 +1,29 @@
-<section>
-   
+{%- render 'stylesheet', name: 'banner' -%}
+
+<section class="banner" role="banner">
+    {% if section.settings.banner_video != blank %}
+        <video
+        class="hero-banner__bg-video"
+        crossorigin="anonymous"
+        autoplay
+        playsinline
+        muted
+        loop
+        preload="none"
+        type="video/mp4"
+        src="{{section.settings.banner_video.sources[1].url}}"></video>
+    {% endif %}
 </section>
 
 {% schema %}
 {
     "name": "banner",
     "settings": [
-        
+        {
+            "type": "video",
+            "id" : "banner_video",
+            "label" : "Banner video"
+        }
     ],
     "presets": [
         {
