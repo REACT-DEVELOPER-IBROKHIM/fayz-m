@@ -11,12 +11,12 @@
                 {% if section.settings.whatwedo_text %}
                     <p>{{ section.settings.whatwedo_text }}</p>
                 {% endif %}
-                <button class="btn"> 
-                    {% if section.settings.whatwedo_btn %}
-                        <span>{{ section.settings.whatwedo_btn }}</span>
-                    {% endif %}
-                    <i>&UpperRightArrow;</i>
-                </button>
+                {% if section.settings.whatwedo_btn and section.settings.whatwedo_link  %}
+                <a href="{{ section.settings.whatwedo_link }}" class="link-regular"> 
+                    <span>{{ section.settings.whatwedo_btn }}</span>
+                    {% render "icon-arrow-top-right" %}
+                </a>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@
 
 {% schema %}
 {
-    "name": "whatwe-do",
+    "name": "whatwedo",
     "settings": [
         {
             "type": "checkbox",
@@ -47,13 +47,18 @@
         {
             "type": "text",
             "id": "whatwedo_btn",
-            "label": "What we do text",
+            "label": "What we do button text",
             "default": "BETTER KNOW US"
+        },
+        {
+            "type": "url",
+            "id" : "whatwedo_link",
+            "label": "What we do button link"
         }
     ],
     "presets": [
         {
-            "name": "whatwe-do"
+            "name": "whatwedo"
         }
     ]
 }

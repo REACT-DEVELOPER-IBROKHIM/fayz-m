@@ -35,6 +35,11 @@
                 {% if section.settings.store_phone_number %}
                     <a href="tel:{{ section.settings.store_phone_number }}">{{ section.settings.store_phone_number }}</a>
                 {% endif %}
+                {% if section.settings.navigation_starting_hours and section.settings.navigation_ending_hours %}
+                    <div class="business-hours">
+                        <span>Working hours {{section.settings.navigation_starting_hours}} - {{section.settings.navigation_ending_hours}}</span>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </div>
