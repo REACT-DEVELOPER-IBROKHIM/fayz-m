@@ -33,9 +33,31 @@
   src: url(Syne-ExtraBold.woff) format("woff");
   font-display: swap;
 }
+@font-face {
+  font-family: "Space";
+  font-style: normal;
+  font-weight: 400;
+  src: url(SpaceGrotesk-Regular.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space";
+  font-style: normal;
+  font-weight: 700;
+  src: url(SpaceGrotesk-Bold.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url(Inter-Regular.woff2) format("woff2");
+  font-display: swap;
+}
 :root {
   --dark: #1E1E1E;
   --light: #FFFFFF;
+  --lighter-dark: #1e1e1e72;
   --secondary: #f7f7f7;
 }
 
@@ -56,14 +78,16 @@
 }
 
 .partners__card-wrapper {
-  margin-top: 40px;
+  margin-top: 60px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .partners__card-wrapper img {
-  height: 50px;
   object-fit: contain;
+  max-width: 300px;
 }
 
 * {
@@ -74,6 +98,10 @@
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -90,6 +118,13 @@ ul {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.link-regular {
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 12px 20px;
+  display: inline-block;
 }
 
 section[data-color-scheme=light] {

@@ -15,12 +15,14 @@
 }
 
 .partners__card-wrapper {
-  margin-top: 40px;
+  margin-top: 60px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .partners__card-wrapper img {
-  height: 50px;
   object-fit: contain;
+  max-width: 300px;
 }
