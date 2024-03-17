@@ -3,15 +3,7 @@
     "banner": {
       "type": "banner",
       "settings": {
-      }
-    },
-    "whatwe_do_QHqNgU": {
-      "type": "whatwe-do",
-      "settings": {
-        "sow_whatwe_do": true,
-        "whatwedo_title": "MULTI-SECTOR TEXTILE COMPANY",
-        "whatwedo_text": "How we work: Seed production, raw cotton production, cotton processing, oil production, flour production, cotton spinning, fabric production, ready-made knitwear and animal husbandry.",
-        "whatwedo_btn": "BETTER KNOW US"
+        "banner_video": "shopify:\/\/files\/videos\/Fayz M Textile - Textile Company in Uzbekistan.mp4"
       }
     },
     "partners": {
@@ -20,19 +12,47 @@
         "partners_image_cjVFpn": {
           "type": "partners_image",
           "settings": {
-            "partners_image": "shopify:\/\/shop_images\/happywear.svg"
+            "partners_image": "shopify:\/\/shop_images\/happy.svg"
           }
         },
         "partners_image_q4GdgH": {
           "type": "partners_image",
           "settings": {
-            "partners_image": "shopify:\/\/shop_images\/vanue.svg"
+            "partners_image": "shopify:\/\/shop_images\/venue.svg"
+          }
+        },
+        "partners_image_tykEBT": {
+          "type": "partners_image",
+          "settings": {
+            "partners_image": "shopify:\/\/shop_images\/lia.svg"
+          }
+        },
+        "partners_image_83HBrE": {
+          "type": "partners_image",
+          "settings": {
+            "partners_image": "shopify:\/\/shop_images\/karelpiu.svg"
+          }
+        },
+        "partners_image_3TVmJX": {
+          "type": "partners_image",
+          "settings": {
+            "partners_image": "shopify:\/\/shop_images\/incolor.svg"
+          }
+        },
+        "partners_image_RwrmRR": {
+          "type": "partners_image",
+          "settings": {
+            "partners_image": "shopify:\/\/shop_images\/binary.svg"
           }
         }
       },
       "block_order": [
         "partners_image_cjVFpn",
-        "partners_image_q4GdgH"
+        "partners_image_q4GdgH",
+        "partners_image_tykEBT",
+        "partners_image_83HBrE",
+        "partners_image_3TVmJX",
+        "partners_image_RwrmRR"
       ],
       "settings": {
       }
@@ -40,7 +60,6 @@
   },
   "order": [
     "banner",
-    "whatwe_do_QHqNgU",
     "partners"
   ]
 }
