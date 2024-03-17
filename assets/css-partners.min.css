@@ -1,6 +1,8 @@
 .partners-wrapper {
   margin-top: 100px;
   width: 100%;
+  padding: 70px 0;
+  background-color: var(--secondary);
 }
 
 .partners-title {
@@ -13,6 +15,12 @@
 }
 
 .partners__card-wrapper {
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+}
+
+.partners__card-wrapper img {
+  height: 50px;
+  object-fit: contain;
 }
