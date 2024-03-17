@@ -6,6 +6,15 @@
         "banner_video": "shopify:\/\/files\/videos\/Fayz M Textile - Textile Company in Uzbekistan.mp4"
       }
     },
+    "whatwedo_Yh7DyE": {
+      "type": "whatwedo",
+      "settings": {
+        "sow_whatwe_do": true,
+        "whatwedo_title": "MULTI-SECTOR TEXTILE COMPANY",
+        "whatwedo_text": "How we work: Seed production, raw cotton production, cotton processing, oil production, flour production, cotton spinning, fabric production, ready-made knitwear and animal husbandry.",
+        "whatwedo_btn": "BETTER KNOW US"
+      }
+    },
     "partners": {
       "type": "partners",
       "blocks": {
@@ -60,6 +69,7 @@
   },
   "order": [
     "banner",
+    "whatwedo_Yh7DyE",
     "partners"
   ]
 }
