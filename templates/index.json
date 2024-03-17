@@ -12,7 +12,8 @@
         "sow_whatwe_do": true,
         "whatwedo_title": "MULTI-SECTOR TEXTILE COMPANY",
         "whatwedo_text": "How we work: Seed production, raw cotton production, cotton processing, oil production, flour production, cotton spinning, fabric production, ready-made knitwear and animal husbandry.",
-        "whatwedo_btn": "BETTER KNOW US"
+        "whatwedo_btn": "BETTER KNOW US",
+        "whatwedo_link": ""
       }
     },
     "partners": {
@@ -27,7 +28,7 @@
         "partners_image_q4GdgH": {
           "type": "partners_image",
           "settings": {
-            "partners_image": "shopify:\/\/shop_images\/venue.svg"
+            "partners_image": "shopify:\/\/shop_images\/nacivott.svg"
           }
         },
         "partners_image_tykEBT": {
@@ -65,11 +66,26 @@
       ],
       "settings": {
       }
+    },
+    "about_us_EWGNGK": {
+      "type": "about-us",
+      "settings": {
+        "about_title": "about us",
+        "about_text_left": "FAYZ-M is mainly a textile manufacturer located in Uzbekistan, Andijan. We have many different high quality and in demand products and services. We are recognized internationally and export our goods to several countries.",
+        "about_text_right": "How we work: Seed production, raw cotton production, cotton processing, oil production, flour production, cotton spinning, fabric production, ready-made knitwear and animal husbandry.",
+        "about_link_left_url": "shopify:\/\/pages\/contact",
+        "about_link_right_url": "shopify:\/\/pages\/contact",
+        "about_link_text_right": "About the process",
+        "about_link_text_left": "About the company",
+        "about_image_right": "shopify:\/\/shop_images\/4K3A3191-min_1.jpg",
+        "about_image_left": "shopify:\/\/shop_images\/356A1189-min.jpg"
+      }
     }
   },
   "order": [
     "banner",
     "whatwedo_Yh7DyE",
-    "partners"
+    "partners",
+    "about_us_EWGNGK"
   ]
 }
