@@ -33,39 +33,15 @@
   src: url(Syne-ExtraBold.woff) format("woff");
   font-display: swap;
 }
-@font-face {
-  font-family: "Space";
-  font-style: normal;
-  font-weight: 400;
-  src: url(SpaceGrotesk-Regular.woff2) format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Space";
-  font-style: normal;
-  font-weight: 700;
-  src: url(SpaceGrotesk-Bold.woff2) format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  src: url(Inter-Regular.woff2) format("woff2");
-  font-display: swap;
-}
 :root {
   --dark: #1E1E1E;
   --light: #FFFFFF;
-  --lighter-dark: #1e1e1e72;
   --secondary: #f7f7f7;
 }
 
 .partners-wrapper {
   margin-top: 100px;
   width: 100%;
-  padding: 70px 0;
-  background-color: var(--secondary);
 }
 
 .partners-title {
@@ -78,16 +54,116 @@
 }
 
 .partners__card-wrapper {
-  margin-top: 60px;
   display: grid;
-  justify-items: center;
-  gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
-.partners__card-wrapper img {
+.sport__collection-wrapper {
+  margin-top: 8rem;
+  width: 100%;
+}
+
+.sport__collection-header {
+  width: 100%;
+  text-align: center;
+}
+.sport__collection-header .collection-subtitle {
+  font-size: 34px;
+  font-weight: 400;
+  font-family: "Syne";
+}
+.sport__collection-header .collection-title {
+  margin-top: 1rem;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Syne";
+  letter-spacing: 1.7px;
+  line-height: 30px;
+}
+.sport__collection-header .collection-description {
+  font-family: "Syne";
+  font-size: 20px;
+  margin-top: 0.5rem;
+}
+
+.collection-banner {
+  margin: 3rem 0;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.4s;
+  position: relative;
+  cursor: pointer;
+  background-color: rgb(226, 218, 218);
+  height: 673px;
+}
+.collection-banner img {
+  height: 100%;
+  width: 100%;
   object-fit: contain;
-  max-width: 300px;
+}
+
+.collection__action-card {
+  max-width: 430px;
+  width: 100%;
+  background-color: transparent;
+  height: 182px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.4s;
+  padding: 0.5rem 0.8rem;
+  z-index: 1;
+}
+.collection__action-card .card-title {
+  z-index: 5;
+  position: relative;
+  font-family: "Syne";
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -3%;
+}
+.collection__action-card .card__info-text {
+  z-index: 5;
+  position: relative;
+  margin: 0.6rem 0;
+  font-size: 18px;
+  font-family: "Syne";
+  font-weight: 700;
+}
+.collection__action-card .action-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 8px 10px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: "Syne";
+  margin-top: 1rem;
+  z-index: 5;
+  position: relative;
+  transition: 0.2s;
+}
+
+.collection__action-card::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: 0.4s;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.collection-banner:hover .collection__action-card .action-link {
+  z-index: 10;
+  color: #fff !important;
+  background-color: #000;
+}
+.collection-banner:hover .collection__action-card::after {
+  transform: translateY(0);
 }
 
 * {
@@ -98,10 +174,6 @@
 
 ul {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 .container {
@@ -118,13 +190,6 @@ a {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
-
-.link-regular {
-  background-color: var(--dark);
-  color: var(--light);
-  padding: 12px 20px;
-  display: inline-block;
 }
 
 section[data-color-scheme=light] {

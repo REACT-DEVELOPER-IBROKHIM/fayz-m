@@ -1,0 +1,40 @@
+{%- render 'stylesheet' name: 'sport-collection'- %}
+<section  class="sport-collection" id="sport-collection">
+    <div class='container'>
+        <div class="sport__collection-wrapper">
+            <div class="sport__collection-header">
+                <p class="collection-subtitle">SPORT COLLECTION </p>
+                <h2 class="collection-title">“GO EXTREME”</h2>
+                <p class="collection-description">Wear for running, cardio and training. Wear without fear of damaging or tearing.</p>
+            </div>
+        <div class='collection-banner'>
+            {% if section.settings.sport-collection %}
+                {{ section.settings.sport-collection | image_url: 1240 | image_tag  }}
+                {% endif %}
+            <div class="collection__action-card">
+            <h3 class="card-title">SPORT COLLECTION</h3>
+            <p class="card__info-text">MADE FOR EXTREME ACTIONS</p>
+            <a class="link-regular action-link" href={{ '/' }}>
+                Know more
+                {% render 'icon-arrow-top-right' %}
+            </a>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name": "sport-collection",
+        "presets": [
+            {
+                "name": "sport-collection"
+            }
+        ],
+        "settings": [
+
+        ]
+        
+    }
+{% endschema %}

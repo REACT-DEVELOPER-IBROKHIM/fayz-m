@@ -80,12 +80,16 @@
         "about_image_right": "shopify:\/\/shop_images\/4K3A3191-min_1.jpg",
         "about_image_left": "shopify:\/\/shop_images\/356A1189-min.jpg"
       }
+    },
+    "sport-collection": {
+      "type": "sport-collection"
     }
   },
   "order": [
     "banner",
     "whatwedo_Yh7DyE",
     "partners",
-    "about_us_EWGNGK"
+    "about_us_EWGNGK",
+    "sport-collection"
   ]
 }
