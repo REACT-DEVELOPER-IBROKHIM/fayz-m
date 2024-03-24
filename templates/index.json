@@ -138,6 +138,19 @@
       ],
       "settings": {
       }
+    },
+    "collection_banner_UExiWf": {
+      "type": "collection-banner",
+      "settings": {
+        "carousel_banner_subtitle": "sport colection",
+        "carousel_banner_title": "“GO EXTREME”",
+        "carousel_banner_description": "Wear for running, cardio and training. Wear without fear of damaging or tearing.",
+        "banner_desktop": "shopify:\/\/shop_images\/4K3A0030_1.jpg",
+        "carousel_banner_card_title": "SPORT COLLECTION",
+        "carousel_banner_card_text": "MADE FOR EXTREME ACTIONS",
+        "card_text": "Know more",
+        "card_url": "shopify:\/\/collections"
+      }
     }
   },
   "order": [
@@ -146,6 +159,7 @@
     "partners",
     "about_us_EWGNGK",
     "collection_banner_hdYX39",
-    "product_carousel_a9CpyD"
+    "product_carousel_a9CpyD",
+    "collection_banner_UExiWf"
   ]
 }
