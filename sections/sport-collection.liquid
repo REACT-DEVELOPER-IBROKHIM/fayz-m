@@ -1,0 +1,95 @@
+{%- render 'stylesheet' name: 'sport-collection'- %}
+<section class="sport-collection" id="sport-collection">
+  <div class="container">
+    <div class="sport__collection-wrapper">
+      <div class="sport__collection-header">
+        {% if section.settings.carousel_banner_subtitle %}
+          <p class="collection-subtitle">{{ section.settings.carousel_banner_subtitle }}</p>
+        {% endif %}
+        {% if section.settings.carousel_banner_title %}
+          <h2 class="collection-title">{{ section.settings.carousel_banner_title }}</h2>
+        {% endif %}
+
+        {% if section.settings.carousel_banner_description %}
+          <p class="collection-description">
+            {{ section.settings.carousel_banner_description }}
+          </p>
+        {% endif %}
+      </div>
+      <div class="collection-banner">
+        {% if section.settings.carousel_banner_image %}
+          {{ section.settings.carousel_banner_image | image_url: width: 1240 | image_tag }}
+        {% endif %}
+        <div class="collection__action-card">
+          {% if section.settings.carousel_banner_card_title %}
+            <h3 class="card-title">{{ section.settings.carousel_banner_card_title }}</h3>
+          {% endif %}
+          {% if section.settings.carousel_banner.card_made_text %}
+            <p class="card__info-text">{{ section.settings.carousel_banner.card_made_text }}</p>
+          {% endif %}
+
+          {% if section.settings.carousel_banner_card_url %}
+            <a class="link-regular action-link" href="{{ section.settings.carousel_banner_card_url }}">
+              {{ section.settings.carousel_banner_card_url }}
+              {% render 'icon-arrow-top-right' %}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "sport-collection",
+
+  "settings": [
+    {
+      "type": "text",
+      "id": "carousel_banner_subtitle",
+      "label": "Carousel banner subtitle",
+      "default": "Carousel banner subtitle"
+    },
+    {
+      "type": "text",
+      "id": "carousel_banner_title",
+      "label": "Carousel banner  title",
+      "default": "Carousel banner title"
+    },
+    {
+      "type": "text",
+      "id": "carousel_banner_description",
+      "label": "Carousel banner description",
+      "default": "Carousel banner description"
+    },
+    {
+      "type": "image_picker",
+      "id": "carousel_banner_image",
+      "label": "Carousel banner image"
+    },
+    {
+      "type": "text",
+      "id": "carousel_banner_card_title",
+      "label": "Carousel banner card title",
+      "default": "Carousel banner card title"
+    },
+    {
+      "type": "text",
+      "id": "carousel_banner.card_made_text",
+      "label": "Carousel banner made",
+      "default": "Carousel banner made"
+    },
+    {
+      "type": "url",
+      "id": "carousel_banner_card_url",
+      "label": "Carousel banner card url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "sport-collection"
+    }
+  ]
+}
+{% endschema %}
