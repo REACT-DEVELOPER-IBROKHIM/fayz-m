@@ -105,14 +105,6 @@
             "product_text": ""
           }
         },
-        "product_item_WKRXH7": {
-          "type": "product_item",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/4K3A0021_2.jpg",
-            "product_title": "",
-            "product_text": ""
-          }
-        },
         "product_item_F4wexa": {
           "type": "product_item",
           "settings": {
@@ -128,13 +120,21 @@
             "product_title": "",
             "product_text": ""
           }
+        },
+        "product_item_WKRXH7": {
+          "type": "product_item",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/4K3A0021_2.jpg",
+            "product_title": "",
+            "product_text": ""
+          }
         }
       },
       "block_order": [
         "product_item_4H3PAN",
-        "product_item_WKRXH7",
         "product_item_F4wexa",
-        "product_item_KHXy4N"
+        "product_item_KHXy4N",
+        "product_item_WKRXH7"
       ],
       "settings": {
       }
