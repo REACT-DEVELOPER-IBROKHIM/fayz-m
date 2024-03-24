@@ -28,7 +28,7 @@
         "partners_image_q4GdgH": {
           "type": "partners_image",
           "settings": {
-            "partners_image": "shopify:\/\/shop_images\/nacivott.svg"
+            "partners_image": "shopify:\/\/shop_images\/venue.svg"
           }
         },
         "partners_image_tykEBT": {
@@ -100,8 +100,6 @@
   "order": [
     "banner",
     "whatwedo_Yh7DyE",
-    "partners",
-    "about_us_EWGNGK",
-    "sport-collection"
+    "partners"
   ]
 }

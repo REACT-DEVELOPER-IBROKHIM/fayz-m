@@ -5,11 +5,13 @@
         {%- render 'stylesheet', name: common_css_url -%}
     </head>
     <body>
-        {% section "announcement-bar" %}
-        {%- section 'navigation' -%}
-        <main id="main" role="main">
-            {{content_for_layout}}
-        </main>
-
+        <component-loader class="page-wrapper">
+            {% section "announcement-bar" %}
+            {%- section 'navigation' -%}
+            <main id="main" role="main">
+                {{content_for_layout}}
+            </main>
+        </component-loader>
+        {%- render 'component-loader' -%}
     </body> 
 </html>
