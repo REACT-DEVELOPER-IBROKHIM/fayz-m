@@ -82,9 +82,21 @@
       }
     },
     "sport-collection": {
-      "type": "sport-collection"
+      "type": "sport-collection",
+      "settings":{
+        "carouse_banner_subtitle": "",
+        "carousel_banner_title": "",
+        "carousel_banner_description": "",
+        "carousel_banner_image": "",
+        "carousel_banner_card_title": "",
+        "carousel_banner.card_made_text": "",
+        "carousel_banner_card_url": ""
+      }
     }
   },
+
+
+
   "order": [
     "banner",
     "whatwedo_Yh7DyE",
