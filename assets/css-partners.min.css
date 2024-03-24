@@ -1,8 +1,11 @@
+.partners {
+  background-color: var(--secondary);
+}
+
 .partners-wrapper {
   margin-top: 100px;
   width: 100%;
   padding: 70px 0;
-  background-color: var(--secondary);
 }
 
 .partners-title {

@@ -61,11 +61,14 @@
   --secondary: #f7f7f7;
 }
 
+.partners {
+  background-color: var(--secondary);
+}
+
 .partners-wrapper {
   margin-top: 100px;
   width: 100%;
   padding: 70px 0;
-  background-color: var(--secondary);
 }
 
 .partners-title {
@@ -96,6 +99,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 ul {
   list-style: none;
 }
@@ -105,7 +112,7 @@ a {
 }
 
 .container {
-  max-width: 1720px;
+  max-width: 1240px;
   padding: 0 22px;
   margin: 0 auto;
 }
