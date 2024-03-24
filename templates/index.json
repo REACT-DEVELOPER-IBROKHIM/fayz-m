@@ -28,7 +28,7 @@
         "partners_image_q4GdgH": {
           "type": "partners_image",
           "settings": {
-            "partners_image": "shopify:\/\/shop_images\/venue.svg"
+            "partners_image": "shopify:\/\/shop_images\/nacivott.svg"
           }
         },
         "partners_image_tykEBT": {
@@ -81,25 +81,25 @@
         "about_image_left": "shopify:\/\/shop_images\/356A1189-min.jpg"
       }
     },
-    "sport-collection": {
-      "type": "sport-collection",
-      "settings":{
-        "carouse_banner_subtitle": "",
-        "carousel_banner_title": "",
-        "carousel_banner_description": "",
-        "carousel_banner_image": "",
-        "carousel_banner_card_title": "",
-        "carousel_banner.card_made_text": "",
-        "carousel_banner_card_url": ""
+    "collection_banner_hdYX39": {
+      "type": "collection-banner",
+      "settings": {
+        "carousel_banner_subtitle": "DAILY",
+        "carousel_banner_title": "“LIVE WITH COMFORT”",
+        "carousel_banner_description": "Wear for running, cardio and training. Wear without fear of damaging or tearing.",
+        "banner_desktop": "shopify:\/\/shop_images\/4K3A0203_2.jpg",
+        "carousel_banner_card_title": "DAILY",
+        "carousel_banner_card_text": "Made from 100% cotton  by fayz-m",
+        "card_text": "Know more",
+        "card_url": "shopify:\/\/collections"
       }
     }
   },
-
-
-
   "order": [
     "banner",
     "whatwedo_Yh7DyE",
-    "partners"
+    "partners",
+    "about_us_EWGNGK",
+    "collection_banner_hdYX39"
   ]
 }
