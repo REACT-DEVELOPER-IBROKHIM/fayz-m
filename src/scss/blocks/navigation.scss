@@ -1,5 +1,12 @@
+#shopify-section-navigation{
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
 .navigation{
     font-family: "Syne";
+    width: 100%;
 }
 
 .navigation__wrapper{
@@ -29,14 +36,75 @@
 
 .menu-item__link{
     text-decoration: none;
-    color: var(--dark);
+    color: var(--light);
 }
 
 .submenu{
     display: none;
 }
 
+
+.navigation__logo > img:first-of-type{
+    transform: scale(1);
+    opacity: 1;
+    width: 200px;
+    transition: height 0.3s;
+}
+
+.navigation__logo > img:last-of-type{
+    transform: scale(0);
+    opacity: 0;
+    height: 0;
+    width: 0px;
+    transition: height 0.2s;
+}
+
 .navigation__address{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.navigation__address a{
+    font-family: "Space";
+    font-weight: 700;
+    color: var(--light);
+}
+
+.business-hours{
+    font-family: "Space";
+    font-size: 12px;
+    color: var(--light);
+}
+
+.pinned-navbar{
+    transition: 0.2s;
+    background-color: var(--light);
+}
+
+.pinned-navbar  .navigation__logo > img:last-of-type{
+    transform: scale(1);
+    opacity: 1;
+    height: 50px;
+    width: 200px;
+}
+
+.pinned-navbar  .navigation__logo > img:first-of-type{
+    transform: scale(0);
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.pinned-navbar .navigation__menu a{
+    color: var(--dark);
+}
+
+.pinned-navbar .navigation__address a{
+    color: var(--dark);
+}
+
+.pinned-navbar .business-hours{
+    color: var(--dark);
 }

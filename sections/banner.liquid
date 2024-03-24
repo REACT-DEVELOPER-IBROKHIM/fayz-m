@@ -1,12 +1,40 @@
-<section>
-   
+{%- render 'stylesheet', name: 'banner' -%}
+{%- render 'tag-script', name: 'banner', loading: 'defer' -%}
+
+<section class="banner" id="banner" role="banner">
+    {% if section.settings.banner_video != blank %}
+        <video
+        class="hero-banner__bg-video"
+        crossorigin="anonymous"
+        autoplay
+        playsinline
+        muted
+        loop
+        preload="none"
+        poster="{{ section.settings.banner_poster |  image_url: width: 1400 }}"
+        type="video/mp4"
+        src="{{ section.settings.banner_video.sources[1].url }}"></video>
+    {% endif %}
+    <button data-video-muted="true" id="video-controller" class="hero-video-controller">
+        {%- render 'icon-volume' -%}
+        {%- render 'icon-novolume' -%}
+    </button>
 </section>
 
 {% schema %}
 {
     "name": "banner",
     "settings": [
-        
+        {
+            "type": "video",
+            "id" : "banner_video",
+            "label" : "Banner video"
+        },
+        {
+            "type": "image_picker",
+            "id" : "banner_poster",
+            "label" : "Banner poster image"
+        }
     ],
     "presets": [
         {

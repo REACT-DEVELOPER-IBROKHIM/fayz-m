@@ -1,11 +1,15 @@
 {%- render 'stylesheet', name: 'navigation' -%}
+{%- render 'tag-script', name: 'navigation', loading: 'defer' -%}
 
 <nav id="navigation" class="navigation" role="navigation">
     <div class="container">
         <div class="navigation__wrapper" role="img">
             <a class="navigation__logo" href={{ '/' }}>
-                {% if section.settings.navigation_logo %}
-                    {{section.settings.navigation_logo | image_url: width: 200 | image_tag: alt: section.settings.navigation_logo_alt_text }} 
+                {% if section.settings.navigation_logo_light %}
+                    {{section.settings.navigation_logo_light | image_url: width: 200 | image_tag: alt: section.settings.navigation_logo_alt_text }} 
+                {% endif %}
+                {% if section.settings.navigation_logo_dark %}
+                    {{section.settings.navigation_logo_dark | image_url: width: 200 | image_tag: alt: section.settings.navigation_logo_alt_text }} 
                 {% endif %}
                 <h1 class="visually-hidden">{{ section.settings.navigation_logo_placeholder_text }}</h1>
             </a>
@@ -31,6 +35,11 @@
                 {% if section.settings.store_phone_number %}
                     <a href="tel:{{ section.settings.store_phone_number }}">{{ section.settings.store_phone_number }}</a>
                 {% endif %}
+                {% if section.settings.navigation_starting_hours and section.settings.navigation_ending_hours %}
+                    <div class="business-hours">
+                        <span>Working hours {{section.settings.navigation_starting_hours}} - {{section.settings.navigation_ending_hours}}</span>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -47,8 +56,13 @@
     },
     {
         "type": "image_picker",
-        "id": "navigation_logo",
-        "label": "Navigation logo"
+        "id": "navigation_logo_dark",
+        "label": "Navigation logo dark"
+    },
+    {
+        "type": "image_picker",
+        "id": "navigation_logo_light",
+        "label": "Navigation logo light"
     },
     {
         "type" : "text",

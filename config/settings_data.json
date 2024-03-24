@@ -13,7 +13,8 @@
         "type": "navigation",
         "settings": {
           "navigation_logo_placeholder_text": "FAYZ-M",
-          "navigation_logo": "shopify:\/\/shop_images\/faz-m_logo.svg",
+          "navigation_logo_dark": "shopify:\/\/shop_images\/fayz-m.svg",
+          "navigation_logo_light": "shopify:\/\/shop_images\/fayz-m_c070765b-74e9-4505-80fd-f7571a45eb55.svg",
           "navigation_logo_alt_text": "FAYZ-M logo descriptiom",
           "store_phone_number": "+9981234567",
           "navigation_starting_hours": "8:00",

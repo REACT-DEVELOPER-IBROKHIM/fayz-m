@@ -13,6 +13,10 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .container{
     max-width: 1720px;
     padding: 0 22px;
@@ -27,6 +31,13 @@ ul{
     position: absolute;
     white-space: nowrap;
     width: 1px;
+}
+
+.link-regular{
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 12px 20px;
+    display: inline-block;
 }
 
 section[data-color-scheme="light"]{
