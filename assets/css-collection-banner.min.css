@@ -55,6 +55,12 @@
   font-size: 40px;
   text-transform: uppercase;
 }
+.collection__action-card .card__info-text {
+  font-family: "Inter";
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
 .collection__action-card a {
   text-transform: uppercase;
 }

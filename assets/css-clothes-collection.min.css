@@ -30,6 +30,10 @@
   line-height: 25px;
 }
 
+.collection__content a svg path[stroke] {
+  color: #111;
+}
+
 .collection__image--box {
   width: 100%;
   background-color: rgba(17, 17, 17, 0.3333333333);

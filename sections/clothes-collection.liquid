@@ -6,12 +6,13 @@
       {% if section.settings.clothes_collection_banner_title %}
         <h2>{{ section.settings.clothes_collection_banner_title }}</h2>
       {% endif %}
-      {% comment %} {% if section.settings.clothes_collection_btn and section.settings.collection_link  %} {% endcomment %}
+
+      {% if section.settings.clothes_collection_btn and section.settings.collection_link  %}
         <a href="{{ section.settings.collection_link }}" class="link-regular"> 
             <span>{{ section.settings.clothes_collection_btn }}</span>
             {% render "icon-arrow-top-right" %}
         </a>
-        {% comment %} {% endif %} {% endcomment %}
+        {% endif %}
     </div>
     <div class="collection__image--box">
       {% if section.settings.clothes_collection_image %}
