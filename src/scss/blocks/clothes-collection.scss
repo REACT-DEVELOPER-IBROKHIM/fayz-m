@@ -1,47 +1,48 @@
 .clothes__collection--wrapper{
-  position: relative;
-}
-
-.collection__content{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 18px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  h2{
-    font-size: 50px;
-    font-family: "Syne";
-    font-weight: 800;
-    line-height: 60px;
-    text-align: center;
-    max-width: 907px;
-    color: #fff;
+    position: relative;
+    height: 550px;
+  
   }
-
-  a{
-    background-color: #fff;
-    color: #111;
-    font-family: "Syne";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    svg{
-      path[stroke]{
-        color: #111;
+  
+  .collection__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    height: 100%;
+    justify-content: center;
+    h2{
+      font-size: 50px;
+      font-family: "Syne";
+      font-weight: 800;
+      line-height: 60px;
+      text-align: center;
+      max-width: 907px;
+      color: #fff;
+    }
+  
+    a{
+      background-color: #fff;
+      color: #111;
+      font-family: "Syne";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
+      svg{
+        path[stroke]{
+          color: #111;
+        }
       }
     }
   }
-}
-
-.collection__image--box{
-  width: 100%;
-  background-color: #1115;
-  img{
-    width: 100%;
-    height: 550px;
-    object-fit: cover;
+  
+  .collection__image--box{
+    img{
+      position: absolute;
+      top: 0;
+      max-width: 1200px;
+      height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
   }
-}

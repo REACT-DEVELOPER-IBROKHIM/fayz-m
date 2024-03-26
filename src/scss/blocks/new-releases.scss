@@ -1,0 +1,52 @@
+.new-releases__main{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+
+.new-releases__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 80%;
+    gap: 30px;
+    padding: 150px 0;
+    p{
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 90px;
+        letter-spacing: 1.68px;
+        max-width: 410px;
+    }
+}
+
+
+.new-releases__banner{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        height: 100%;
+    }
+    p{
+        font-family: "Syne", sans-serif;
+        font-size: 50px;
+        font-weight: 800;
+        color: #fff;
+        max-width: 442px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

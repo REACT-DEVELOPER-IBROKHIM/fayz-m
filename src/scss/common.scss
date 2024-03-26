@@ -42,6 +42,11 @@ a{
     color: var(--light);
     padding: 12px 20px;
     display: inline-block;
+    text-transform: uppercase;
+    font-family: "Space";
+    svg{
+        margin-left: 10px;
+    }
 }
 
 section[data-color-scheme="light"]{
