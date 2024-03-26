@@ -21,7 +21,7 @@
         loop
         preload="none"
         type="video/mp4"
-        src="{{ section.settings.banner_video.url }}"></video>
+        src="{{ section.settings.banner_video.sources[1].url  }}"></video>
       {% endif %}
       {% if section.settings.banner_image %}
         {{ section.settings.banner_image | image_url: width: 4000  | image_tag }}
