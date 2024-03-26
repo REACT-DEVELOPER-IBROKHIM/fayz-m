@@ -139,14 +139,6 @@
       "settings": {
       }
     },
-    "difference-dna": {
-      "type": "difference-dna",
-      "settings": {
-        "banner_title": "WE HAVE DIFFERENT DNA",
-        "banner_text": "Discover the DNA of style with Fayz-m Textile Company. From vibrant hues to timeless classics, our collection boasts a kaleidoscope of colors to suit every taste. Unveil your fashion identity with our exquisite range of garments. Embrace diversity, express yourself, and redefine elegance with Fayz-m.",
-        "banner_video": "shopify:\/\/files\/videos\/7aa8b2635c5d40bfa5b5d2071f4a0732 (1).mp4"
-      }
-    },
     "collection_banner_UExiWf": {
       "type": "collection-banner",
       "settings": {
@@ -160,6 +152,16 @@
         "card_url": "shopify:\/\/collections"
       }
     },
+    "new_releases_HL7H63": {
+      "type": "new-releases",
+      "settings": {
+        "new-releases_title": "KEEP THE STRENGTH",
+        "new-released_link": "know more",
+        "new-releases_link_left_url": "shopify:\/\/pages\/about",
+        "new-releases_image-right": "shopify:\/\/shop_images\/DSC06540.jpg",
+        "new-releases_text_inside": "New Releases"
+      }
+    },
     "clothes_collection": {
       "type": "clothes-collection",
       "settings": {
@@ -167,17 +169,6 @@
         "clothes_collection_btn": "Know more",
         "collection_link": "shopify:\/\/collections",
         "clothes_collection_image": "shopify:\/\/shop_images\/DSC06872.jpg"
-      }
-    },
-    "discuss": {
-      "type": "discuss",
-      "settings": {
-        "discuss_title": "Let’s discuss",
-        "discuss_text": "If you leave your message and details we will contact you as soon as possible to get to know each other better 😊",
-        "discuss_name_input": "Your name*",
-        "discuss_phone_input": "Your phone*",
-        "discuss_description_input": "Your message",
-        "discuss_text_btn": "CONTACT US"
       }
     }
   },
@@ -188,9 +179,8 @@
     "about_us_EWGNGK",
     "collection_banner_hdYX39",
     "product_carousel_a9CpyD",
-    "difference-dna",
     "collection_banner_UExiWf",
-    "clothes_collection",
-    "discuss"
+    "new_releases_HL7H63",
+    "clothes_collection"
   ]
 }
