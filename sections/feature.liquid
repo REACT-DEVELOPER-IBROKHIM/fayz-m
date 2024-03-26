@@ -12,7 +12,7 @@
     </div>
     <div class="difference__box">
       {% if section.settings.banner_video != blank %}
-        <video
+         <video
         class="difference-banner__bg-video"
         crossorigin="anonymous"
         autoplay
@@ -20,6 +20,7 @@
         muted
         loop
         preload="none"
+        poster="{{ section.settings.banner_image |  image_url: width: 4000 }}"
         type="video/mp4"
         src="{{ section.settings.banner_video.sources[1].url }}"></video>
       {% endif %}
