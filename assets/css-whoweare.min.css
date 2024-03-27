@@ -1,0 +1,19 @@
+.whoweare {
+  margin-top: 5rem;
+}
+
+.whowe__are-content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  font-family: "Space";
+}
+.whowe__are-content p {
+  font-size: 24px;
+  font-weight: 800;
+  max-width: 900px;
+  margin: 40px 0;
+  line-height: 36px;
+  font-family: "Syne";
+  letter-spacing: 1.7px;
+}
