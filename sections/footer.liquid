@@ -1,0 +1,124 @@
+{%- render 'stylesheet', name: 'footer' -%}
+
+<section id='footer' class="footer">
+  <div class="container">
+    <footer>
+      <div class="footer__logo">
+        {% if section.settings.footer_logo %}
+          {{ section.settings.footer_logo | image_url: width: 200  | image_tag }}
+        {% endif %}
+      </div>
+
+      <ul class="footer__menu">
+        {% for link in linklists['footer'].links %}
+          <li role="listitem" >
+              <a class="top-heading" role="link" href="{{ link.url }}">{{ link.title | upcase }}</a>
+              {% comment %} {%- if link.links != blank -%} {% endcomment %}
+                  <ul class="submenu">
+                  {% comment %} {%- for child_link in link.links -%} {% endcomment %}
+                      {% comment %} <li role="listitem" >
+                          <a role="link" href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>
+                              {{ child_link.title }}
+                          </a>
+                        </li> {% endcomment %}
+                        
+                      <li role="listitem">
+                        <a href="/" > about lift </a>
+                      </li>
+                      <li role="listitem">
+                        <a href="/" > press relaase </a>
+                      </li>
+                      <li role="listitem">
+                        <a href="/" > environment </a>
+                      </li>
+                      <li role="listitem">
+                        <a href="/" > jobs </a>
+                      </li>
+                      <li role="listitem">
+                        <a href="/" > privacy policy </a>
+                      </li>
+                      <li role="listitem">
+                        <a href="/" > contact us </a>
+                      </li>
+                  {% comment %} {%- endfor -%} {% endcomment %}
+                  </ul>
+              {% comment %} {%- endif -%} {% endcomment %}
+          </li>
+      {% endfor %}
+      </ul>
+
+      <ul class="footer__menu">
+        <li role="listitem" >
+          <a  class="top-heading" role="link" href="/">SOCIAL</a>
+          
+          <ul class="submenu social-sebmenu">
+            <li role="listitem">
+              <a href="{{ section.settings.facebook_link }}" >{% render "facebook" %}</a>
+            </li>  
+            <li role="listitem">
+              <a href="{{ section.settings.instagram_link }}" >{% render "instagram" %}</a>
+            </li>  
+            <li role="listitem">
+              <a href="{{ section.settings.twitter_link }}" >{% render "twitter" %}</a>
+            </li>  
+            <li role="listitem">
+              <a href="{{ section.settings.youtube_link }}" >{% render "youtube" %}</a>
+            </li>        
+          </ul>
+        </li>
+      </ul>
+
+    </footer>
+
+    <div class="footer__allright">
+      {% if section.settings.footer__allright %}
+        <span>{{ section.settings.footer__allright }}</span>
+      {% endif %}
+    </div>
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [ 
+    {
+      "type": "image_picker",
+      "id": "footer_logo",
+      "label": "Footer logo image"
+    },
+    {
+      "type": "text",
+      "id": "footer__allright",
+      "label": "Footer all right text",
+      "default": "Footer all right text"
+    },
+    {
+      "type": "text",
+      "id": "facebook_link",
+      "label": "Facebook link"
+    },
+    {
+      "type": "text",
+      "id": "instagram_link",
+      "label": "Instagram link"
+    },
+    {
+      "type": "text",
+      "id": "twitter_link",
+      "label": "Twitter link"
+    },
+    {
+      "type": "text",
+      "id": "youtube_link",
+      "label": "Youtube link"
+    }
+  ],
+  "presets": [
+    {
+        "name": "Footer"
+    }
+  ]
+}
+{% endschema %}
