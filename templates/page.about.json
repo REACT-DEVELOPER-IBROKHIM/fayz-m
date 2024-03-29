@@ -27,11 +27,20 @@
         "achieved_energy_count": "950kw",
         "achieved_energy_title": "GREEN ENERGY"
       }
+    },
+    "about_history_b4qTTP": {
+      "type": "about-history",
+      "settings": {
+        "about_history_title": "OUR HISTORY",
+        "about_history_top_text": "The private enterprise XO`JAOBOD FAYZ-M was founded in 2005 in the village of Birlashgan, Khojaabad district, Andijan region of the Republic of Uzbekistan. The brand specializes in the production and sale of knitwear, using environmentally friendly raw materials of its own production. Products here go from deep processing of cotton fiber to the production of finished garments.",
+        "about_history_bottom_text": "XO`JAOBOD FAYZ-M products are based on the purest selected cotton grown in the fields of sunny Uzbekistan. The republic has been developing independently for 25 years, and for 11 of them XO`JAOBOD FAYZ-M has been successfully sewing comfortable, soft and environmentally friendly clothes. The manufacturer notes that the country's authorities take great care of entrepreneurs, and is convinced: “We must work in such a way as to justify the trust of our government.” Today the brand has achieved great success in the market and worthily celebrates the 25th anniversary of the independence of its fatherland."
+      }
     }
   },
   "order": [
     "banner",
     "whoweare_De3W8z",
-    "whatweachieved_weLCkg"
+    "whatweachieved_weLCkg",
+    "about_history_b4qTTP"
   ]
 }
