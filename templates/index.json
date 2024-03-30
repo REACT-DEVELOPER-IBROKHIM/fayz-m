@@ -3,7 +3,7 @@
     "banner": {
       "type": "banner",
       "settings": {
-        "banner_video": "shopify:\/\/files\/videos\/Fayz M Textile - Textile Company in Uzbekistan.mp4"
+        "banner_video": "shopify:\/\/files\/videos\/Fayz M Textile - Textile Company in Uzbekistan-4k n.mp4"
       }
     },
     "whatwedo_Yh7DyE": {
@@ -186,7 +186,11 @@
       "type": "footer",
       "settings": {
         "footer_logo": "shopify:\/\/shop_images\/fayz-m.svg",
-        "footer__allright": "© 2019 FAYZ-M | All Rights Reserved"
+        "footer__allright": "© 2019 FAYZ-M | All Rights Reserved",
+        "facebook_link": "",
+        "instagram_link": "",
+        "twitter_link": "",
+        "youtube_link": ""
       }
     }
   },
