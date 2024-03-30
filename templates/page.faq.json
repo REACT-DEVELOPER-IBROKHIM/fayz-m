@@ -5,9 +5,33 @@
       "settings": {
         "banner_video": "shopify:\/\/files\/videos\/Fayz M Textile - Textile Company in Uzbekistan.mp4"
       }
+    },
+    "contact_form_PdCRB6": {
+      "type": "contact-form",
+      "settings": {
+        "discuss_title": "Let’s discuss",
+        "discuss_text": "If you leave your message and details we will contact you as soon as possible to get to know each other better 😊",
+        "discuss_name_input": "Your name *",
+        "discuss_phone_input": "Your phone *",
+        "discuss_description_input": "Your message",
+        "discuss_text_btn": "CONTACT US"
+      }
+    },
+    "footer_gt9iNm": {
+      "type": "footer",
+      "settings": {
+        "footer_logo": "shopify:\/\/shop_images\/fayz-m.svg",
+        "footer__allright": "© 2019 FAYZ-M | All Rights Reserved",
+        "facebook_link": "",
+        "instagram_link": "",
+        "twitter_link": "",
+        "youtube_link": ""
+      }
     }
   },
   "order": [
-    "banner"
+    "banner",
+    "contact_form_PdCRB6",
+    "footer_gt9iNm"
   ]
 }
