@@ -1,0 +1,114 @@
+{%- render 'stylesheet', name: -%}
+
+<section class="whatwe-achieved" id="whatwe-achieved">
+  <div class="container">
+    {% if section.settings.whatwe_achieved_title %}
+      <h2 class="whatwe__achieved-title">{{ section.settings.whatwe_achieved_title }}</h2>
+    {% endif %}
+    <div class="achieved__card-wrapper">
+      <div class="achieved-card">
+        {% render 'icon-clothe' %}
+        {% if section.settings.achieved_products_count %}
+          <h3>{{ section.settings.achieved_products_count }}</h3>
+        {% endif %}
+        {% if section.settings.achieved_products_title %}
+          <p>{{ section.settings.achieved_products_title }}</p>
+        {% endif %}
+      </div>
+      <div class="achieved-card">
+        {% render 'icon-people' %}
+        {% if section.settings.achieved_jobs_count %}
+          <h3>{{ section.settings.achieved_jobs_count }}</h3>
+        {% endif %}
+        {% if section.settings.achieved_jobs_title %}
+          <p>{{ section.settings.achieved_jobs_title}}</p>
+        {% endif %}
+      </div>
+      <div class="achieved-card">
+        {% render 'icon-handshake' %}
+        {% if section.settings.achieved_partners_count %}
+          <h3>{{ section.settings.achieved_partners_count }}</h3>
+        {% endif %}
+        {% if section.settings.achieved_partners_title %}
+          <p>{{ section.settings.achieved_partners_title}}</p>
+        {% endif %}
+      </div>
+      <div class="achieved-card">
+        {% render 'icon-energy' %}
+        {% if section.settings.achieved_energy_count %}
+          <h3>{{ section.settings.achieved_energy_count }}</h3>
+        {% endif %}
+        {% if section.settings.achieved_energy_title %}
+          <p>{{ section.settings.achieved_energy_title}}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "What we achieved",
+  "settings": [
+    {
+      "type": "text",
+      "id": "whatwe_achieved_title",
+      "label": "What we achieved title",
+      "default": "What we achieved"
+    },
+    {
+      "type": "text",
+      "id": "achieved_products_count",
+      "label": "Achieved product count",
+      "default": "20 mln"
+    },
+    {
+      "type": "text",
+      "id": "achieved_products_title",
+      "label": "Achieved product title",
+      "default": "PRODUCTS"
+    },
+    {
+      "type": "text",
+      "id": "achieved_jobs_count",
+      "label": "Achieved jobs count",
+      "default": "1500+"
+    },
+    {
+      "type": "text",
+      "id": "achieved_jobs_title",
+      "label": "Achieved jobs title",
+      "default": "JOBS"
+    },
+    {
+      "type": "text",
+      "id": "achieved_partners_count",
+      "label": "Achieved partners count",
+      "default": "20+"
+    },
+    {
+      "type": "text",
+      "id": "achieved_partners_title",
+      "label": "Achieved partners title",
+      "default": "PARTNERS"
+    },
+    {
+      "type": "text",
+      "id": "achieved_energy_count",
+      "label": "Achieved energy count",
+      "default": "950kw"
+    },
+    {
+      "type": "text",
+      "id": "achieved_energy_title",
+      "label": "Achieved energy title",
+      "default": "GREEN ENERGY"
+    }
+  ],
+  "presets": [
+    {
+      "name": "What we achieved"
+    }
+  ]
+}
+{% endschema %}

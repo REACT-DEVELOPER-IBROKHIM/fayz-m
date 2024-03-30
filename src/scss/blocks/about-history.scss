@@ -1,0 +1,25 @@
+.about-history{
+    margin-top: 120px;
+    width: 100%;
+    background-color: var(--dark);
+    padding: 50px 0;
+}
+.about__history-content{
+    h2{
+        color: var(--light);
+        font-size: 50px;
+        font-weight: 800;
+        font-family: "Syne";
+        margin-bottom: 45px;
+    }
+    p{
+        color: var(--light);
+        font-size: 20px;
+        font-family: "Inter";
+        line-height: 24.2px;
+        font-weight: 400;
+    }
+    .content__bottom-text{
+        margin: 60px 0;
+    }
+}

@@ -5,9 +5,63 @@
       "settings": {
         "banner_video": "shopify:\/\/files\/videos\/Fayz M Textile - Textile Company in Uzbekistan.mp4"
       }
+    },
+    "whoweare_De3W8z": {
+      "type": "whoweare",
+      "settings": {
+        "whoweare_title": "WHO WE ARE | MULTI-SECTOR TEXTILE COMPANY",
+        "whoweare_text": "Transforming Fibers into Fashion: Weaving Quality, Innovation, and Elegance Together.",
+        "whoweare_url": "shopify:\/\/collections"
+      }
+    },
+    "whatweachieved_weLCkg": {
+      "type": "whatweachieved",
+      "settings": {
+        "whatwe_achieved_title": "What we achieved",
+        "achieved_products_count": "20 mln",
+        "achieved_products_title": "PRODUCTS",
+        "achieved_jobs_count": "1500+",
+        "achieved_jobs_title": "JOBS",
+        "achieved_partners_count": "20+",
+        "achieved_partners_title": "PARTNERS",
+        "achieved_energy_count": "950kw",
+        "achieved_energy_title": "GREEN ENERGY"
+      }
+    },
+    "about_history_b4qTTP": {
+      "type": "about-history",
+      "settings": {
+        "about_history_title": "OUR HISTORY",
+        "about_history_top_text": "The private enterprise XO`JAOBOD FAYZ-M was founded in 2005 in the village of Birlashgan, Khojaabad district, Andijan region of the Republic of Uzbekistan. The brand specializes in the production and sale of knitwear, using environmentally friendly raw materials of its own production. Products here go from deep processing of cotton fiber to the production of finished garments.",
+        "about_history_bottom_text": "XO`JAOBOD FAYZ-M products are based on the purest selected cotton grown in the fields of sunny Uzbekistan. The republic has been developing independently for 25 years, and for 11 of them XO`JAOBOD FAYZ-M has been successfully sewing comfortable, soft and environmentally friendly clothes. The manufacturer notes that the country's authorities take great care of entrepreneurs, and is convinced: “We must work in such a way as to justify the trust of our government.” Today the brand has achieved great success in the market and worthily celebrates the 25th anniversary of the independence of its fatherland."
+      }
+    },
+    "feature_gCV8Az": {
+      "type": "feature",
+      "settings": {
+        "banner_title": "OUR PERSPECTIVE",
+        "banner_text": "Dynamically developing and mastering new technologies for the production of linens and knitwear, the XO`JAOBOD FAYZ-M brand has firmly established itself in its segment. Today, the company supplies up to 20% of its products to the domestic market and up to 80% to the CIS countries: Russia, Ukraine, Kazakhstan, Kyrgyzstan, Turkmenistan. In 2014–2016, export contracts were concluded totaling more than five million US dollars. In the future, the company plans to expand and increase the number of jobs, as it intends to export yarn and linen to Asian and Western countries.",
+        "banner_image": "shopify:\/\/shop_images\/356A1263_1_1.jpg"
+      }
+    },
+    "contact_form_8JxcLb": {
+      "type": "contact-form",
+      "settings": {
+        "discuss_title": "Let’s discuss",
+        "discuss_text": "If you leave your message and details we will contact you as soon as possible to get to know each other better 😊",
+        "discuss_name_input": "Your name *",
+        "discuss_phone_input": "Your phone *",
+        "discuss_description_input": "Your message",
+        "discuss_text_btn": "Contact us"
+      }
     }
   },
   "order": [
-    "banner"
+    "banner",
+    "whoweare_De3W8z",
+    "whatweachieved_weLCkg",
+    "about_history_b4qTTP",
+    "feature_gCV8Az",
+    "contact_form_8JxcLb"
   ]
 }
