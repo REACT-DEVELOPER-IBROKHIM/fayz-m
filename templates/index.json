@@ -96,6 +96,23 @@
         "card_url": "shopify:\/\/collections"
       }
     },
+    "product_carousel_UCkQ3J": {
+      "type": "product-carousel",
+      "settings": {
+        "section_collection": "women"
+      }
+    },
+    "new_releases_HijC4a": {
+      "type": "new-releases",
+      "settings": {
+        "new-releases_title": "KEEP THE FASHION",
+        "new-released_link": "Know more",
+        "new-releases_link_left_url": "shopify:\/\/collections",
+        "new-releases_image-right": "shopify:\/\/shop_images\/4K3A0338_1_1.jpg",
+        "new-releases_text_inside": "New Releases",
+        "section_image_side": "left"
+      }
+    },
     "collection_banner_UExiWf": {
       "type": "collection-banner",
       "settings": {
@@ -109,14 +126,29 @@
         "card_url": "shopify:\/\/collections"
       }
     },
+    "product_carousel_dBeXaq": {
+      "type": "product-carousel",
+      "settings": {
+        "section_collection": "men"
+      }
+    },
     "new_releases_HL7H63": {
       "type": "new-releases",
       "settings": {
-        "new-releases_title": "KEEP THE STRENGTH",
+        "new-releases_title": "KEEP THE POWER",
         "new-released_link": "know more",
         "new-releases_link_left_url": "shopify:\/\/pages\/about",
         "new-releases_image-right": "shopify:\/\/shop_images\/DSC06540.jpg",
-        "new-releases_text_inside": "New Releases"
+        "new-releases_text_inside": "New Releases",
+        "section_image_side": "right"
+      }
+    },
+    "feature_jpeHeV": {
+      "type": "feature",
+      "settings": {
+        "banner_title": "WE HAVE DIFFERENT DNA",
+        "banner_text": "Discover the DNA of style with Fayz-m Textile Company. From vibrant hues to timeless classics, our collection boasts a kaleidoscope of colors to suit every taste. Unveil your fashion identity with our exquisite range of garments. Embrace diversity, express yourself, and redefine elegance with Fayz-m.",
+        "banner_video": "shopify:\/\/files\/videos\/7aa8b2635c5d40bfa5b5d2071f4a0732 (1).mp4"
       }
     },
     "clothes_collection": {
@@ -157,8 +189,12 @@
     "partners",
     "about_us_EWGNGK",
     "collection_banner_hdYX39",
+    "product_carousel_UCkQ3J",
+    "new_releases_HijC4a",
     "collection_banner_UExiWf",
+    "product_carousel_dBeXaq",
     "new_releases_HL7H63",
+    "feature_jpeHeV",
     "clothes_collection",
     "contact_form_HeF97P",
     "footer"
