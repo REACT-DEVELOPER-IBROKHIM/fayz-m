@@ -96,51 +96,6 @@
         "card_url": "shopify:\/\/collections"
       }
     },
-    "product_carousel_a9CpyD": {
-      "type": "product-carousel",
-      "blocks": {
-        "product_item_4H3PAN": {
-          "type": "product_item",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/4K3A0021_2.jpg",
-            "product_title": "",
-            "product_text": ""
-          }
-        },
-        "product_item_F4wexa": {
-          "type": "product_item",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/4K3A9698_3.jpg",
-            "product_title": "",
-            "product_text": ""
-          }
-        },
-        "product_item_KHXy4N": {
-          "type": "product_item",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/4K3A9643_1.jpg",
-            "product_title": "",
-            "product_text": ""
-          }
-        },
-        "product_item_WKRXH7": {
-          "type": "product_item",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/4K3A0021_2.jpg",
-            "product_title": "",
-            "product_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "product_item_4H3PAN",
-        "product_item_F4wexa",
-        "product_item_KHXy4N",
-        "product_item_WKRXH7"
-      ],
-      "settings": {
-      }
-    },
     "collection_banner_UExiWf": {
       "type": "collection-banner",
       "settings": {
@@ -202,7 +157,6 @@
     "partners",
     "about_us_EWGNGK",
     "collection_banner_hdYX39",
-    "product_carousel_a9CpyD",
     "collection_banner_UExiWf",
     "new_releases_HL7H63",
     "clothes_collection",

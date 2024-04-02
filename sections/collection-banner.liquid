@@ -20,19 +20,22 @@
           {{ section.settings.banner_desktop | image_url: width: 4000  | image_tag }}
         {% endif %}
         <div class="collection__action-card">
-          {% if section.settings.carousel_banner_card_title %}
-            <h3 class="card-title">{{ section.settings.carousel_banner_card_title }}</h3>
-          {% endif %}
-          {% if section.settings.carousel_banner_card_text %}
-            <p class="card__info-text">{{ section.settings.carousel_banner_card_text }}</p>
-          {% endif %}
-
-          {% if section.settings.card_url and section.settings.card_text  %}
-            <a class="link-regular action-link" href="{{ section.settings.card_url }}">
-              {{ section.settings.card_text }}
-              {% render 'icon-arrow-top-right' %}
-            </a>
-          {% endif %}
+          <div class="card__overlay"></div>
+          <div class="card__content">
+            {% if section.settings.carousel_banner_card_title %}
+              <h3 class="card-title">{{ section.settings.carousel_banner_card_title }}</h3>
+            {% endif %}
+            {% if section.settings.carousel_banner_card_text %}
+              <p class="card__info-text">{{ section.settings.carousel_banner_card_text }}</p>
+            {% endif %}
+  
+            {% if section.settings.card_url and section.settings.card_text  %}
+              <a class="link-regular action-link" href="{{ section.settings.card_url }}">
+                {{ section.settings.card_text }}
+                {% render 'icon-arrow-top-right' %}
+              </a>
+            {% endif %}
+          </div>
         </div>
       </div>
   </div>

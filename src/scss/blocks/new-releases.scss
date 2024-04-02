@@ -1,17 +1,21 @@
 .new-releases__main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 50px;
-    margin-bottom: 100px;
+    margin: 100px 0;
+
+    &[data-image-side="left"]{
+        flex-direction: row-reverse;
+    }
 }
 
 
 .new-releases__content{
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    width: 80%;
     gap: 30px;
     padding: 150px 0;
     p{
@@ -48,5 +52,6 @@
         line-height: 60px;
         text-align: center;
         text-transform: uppercase;
+        transition: 0.5s;
     }
 }

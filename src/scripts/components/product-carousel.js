@@ -5,10 +5,10 @@ class ProductCarousel extends HTMLElement {
     }
 
     handleHorizontalScroll(){
-        const races = document.querySelector(".carousel");
+        const races = this.querySelector(".carousel");
         console.log(races.offsetWidth)
         function getScrollAmount() {
-            let racesWidth = races.scrollWidth;
+            let racesWidth = races.scrollWidth + 50;
             return -(racesWidth - window.innerWidth);
         }
 
@@ -20,11 +20,11 @@ class ProductCarousel extends HTMLElement {
 
 
         ScrollTrigger.create({
-            trigger: ".product-carousel__wrapper",
+            trigger: `[data-section-id="${this.dataset.sectionId}"] .product-carousel__wrapper`,
             start:"top 20%",
-            end: () => `+=${getScrollAmount() * -1}`,
+            end: () => `+=${(getScrollAmount() + 120) * -1}`,
             pin:true,
-            animation:tween,
+            animation: tween,
             scrub:1,
             invalidateOnRefresh:true,
             markers:false
