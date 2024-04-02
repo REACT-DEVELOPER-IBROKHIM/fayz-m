@@ -1,5 +1,13 @@
 {
   "sections": {
+    "banner_FPnG7w": {
+      "type": "banner",
+      "settings": {
+        "banner_poster": "shopify:\/\/shop_images\/4K3A3243_1_3.png",
+        "banner_image_or_video": true,
+        "banner_text": "faq fayz-m"
+      }
+    },
     "contact_form_PdCRB6": {
       "type": "contact-form",
       "settings": {
@@ -24,6 +32,7 @@
     }
   },
   "order": [
+    "banner_FPnG7w",
     "contact_form_PdCRB6",
     "footer_gt9iNm"
   ]
