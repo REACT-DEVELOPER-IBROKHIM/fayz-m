@@ -1,41 +1,70 @@
-.banner{
-    display: flex;
-    height: calc(100vh - 40px);
-    margin-top: -68px;
-    position: relative;
+.banner {
+  display: flex;
+  height: calc(100vh - 40px);
+  margin-top: -68px;
+  position: relative;
 }
 
-.banner > video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: saturate(130%) contrast(120%) brightness(90%);
+.banner > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(130%) contrast(120%) brightness(90%);
 }
 
-.hero-video-controller{
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-    border: none;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    backdrop-filter: blur(15px);
-    background-color: var(--lighter-dark);
-    cursor: pointer;
+.banner > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.hero-video-controller[data-video-muted="true"] svg:last-child{
-    display: none;
+.hero-video-controller {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  backdrop-filter: blur(15px);
+  background-color: var(--lighter-dark);
+  cursor: pointer;
 }
 
-.hero-video-controller[data-video-muted="false"] > svg:last-child{
-    display: block;
+.hero-banner__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  backdrop-filter: blur(5px);
+  background: linear-gradient(135deg, #000 20%, rgba(0,0,0,0.5280768557422969) 40%, rgba(255,255,255,0) 76%);
+  display: flex;
+  align-items: flex-end;
+  h1{
+    color: #fff;
+    font-family: "Syne";
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    max-width: 660px;
+    padding-bottom: 80px;
+  }
 }
 
-.hero-video-controller[data-video-muted="false"] > svg:first-child{
-    display: none;
+.hero-video-controller[data-video-muted="true"] svg:last-child {
+  display: none;
+}
+
+.hero-video-controller[data-video-muted="false"] > svg:last-child {
+  display: block;
+}
+
+.hero-video-controller[data-video-muted="false"] > svg:first-child {
+  display: none;
 }

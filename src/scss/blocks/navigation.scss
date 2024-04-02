@@ -23,7 +23,6 @@
 .navigation__logo > img{
     height: 50px;
     object-fit: contain;
-    object-position: left;
 }
 
 .navigation__menu{
@@ -48,7 +47,7 @@
 .navigation__logo > img:first-of-type{
     transform: scale(1);
     opacity: 1;
-    width: 200px;
+    width: 130px;
     transition: height 0.3s;
 }
 
@@ -88,7 +87,7 @@
     transform: scale(1);
     opacity: 1;
     height: 50px;
-    width: 200px;
+    width: 130px;
 }
 
 .pinned-navbar  .navigation__logo > img:first-of-type{

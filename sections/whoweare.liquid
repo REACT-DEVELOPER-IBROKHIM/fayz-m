@@ -8,9 +8,9 @@
       {% if section.settings.whoweare_text %}
         <p>{{ section.settings.whoweare_text }}</p>
       {% endif %}
-      {% if section.settings.whoweare_url %}
+      {% if section.settings.whoweare_url and section.settings.whoweare_url_text %}
         <a href="{{ section.settings.whoweare_url }}" class="link-regular">
-          {{ section.settings.whoweare_url }}
+          {{ section.settings.whoweare_url_text }}
           {% render 'icon-arrow-top-right' %}
         </a>
       {% endif %}
@@ -20,29 +20,34 @@
 
 {% schema %}
 {
-  "name": "Who_we_are",
+  "name": "Who we are",
   "settings": [
     {
       "type": "text",
       "id": "whoweare_title",
-      "label": "Who we are title",
+      "label": "Section title",
       "default": "Who we are title"
     },
     {
       "type": "text",
       "id": "whoweare_text",
-      "label": "Who we are text",
+      "label": "Section text",
       "default": "Who we are text"
     },
     {
       "type": "url",
       "id": "whoweare_url",
-      "label": "Who we are url "
+      "label": "Section url "
+    },
+    {
+      "type": "text",
+      "id": "whoweare_url_text",
+      "label": "Section button text "
     }
   ],
   "presets": [
     {
-      "name": "Who_we_are"
+      "name": "Who we are"
     }
   ]
 }
