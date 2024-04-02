@@ -3,7 +3,9 @@
     "banner": {
       "type": "banner",
       "settings": {
-        "banner_video": "shopify:\/\/files\/videos\/Fayz M Textile - Textile Company in Uzbekistan-4k n.mp4"
+        "banner_video": "shopify:\/\/files\/videos\/Fayz M Textile - Textile Company in Uzbekistan-4k n.mp4",
+        "banner_image_or_video": false,
+        "banner_text": ""
       }
     },
     "whatwedo_Yh7DyE": {
@@ -84,9 +86,9 @@
     "collection_banner_hdYX39": {
       "type": "collection-banner",
       "settings": {
-        "carousel_banner_subtitle": "DAILY",
-        "carousel_banner_title": "“LIVE WITH COMFORT”",
-        "carousel_banner_description": "Wear for running, cardio and training. Wear without fear of damaging or tearing.",
+        "carousel_banner_subtitle": "WOMEN",
+        "carousel_banner_title": "\"Bold & Beautiful Collection\"",
+        "carousel_banner_description": "\"Bold & Beautiful: Confidence, Style, Vibrance - Embrace Your Unique Beauty.\"",
         "banner_desktop": "shopify:\/\/shop_images\/4K3A0203_2.jpg",
         "carousel_banner_card_title": "DAILY",
         "carousel_banner_card_text": "Made from 100% cotton  by fayz-m",
