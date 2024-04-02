@@ -1,11 +1,5 @@
 {
   "sections": {
-    "banner": {
-      "type": "banner",
-      "settings": {
-        "banner_poster": "shopify:\/\/shop_images\/4K3A3243_1_3.png"
-      }
-    },
     "contact_form_PdCRB6": {
       "type": "contact-form",
       "settings": {
@@ -30,7 +24,6 @@
     }
   },
   "order": [
-    "banner",
     "contact_form_PdCRB6",
     "footer_gt9iNm"
   ]

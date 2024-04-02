@@ -1,11 +1,5 @@
 {
   "sections": {
-    "banner": {
-      "type": "banner",
-      "settings": {
-        "banner_poster": "shopify:\/\/shop_images\/4K3A3243_1_2_1.png"
-      }
-    },
     "whoweare_De3W8z": {
       "type": "whoweare",
       "settings": {
@@ -57,7 +51,6 @@
     }
   },
   "order": [
-    "banner",
     "whoweare_De3W8z",
     "whatweachieved_weLCkg",
     "about_history_b4qTTP",
