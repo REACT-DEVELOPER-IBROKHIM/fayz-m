@@ -1,13 +1,14 @@
 .carousel{
     width:fit-content;
-	display:flex;
-	flex-wrap:nowrap;
+	  display:flex;
+	  flex-wrap:nowrap;
     gap: 0 60px;
 }
 
 .carousel__item {
-  width: 550px;
+  width: 470px;
   height: 100%;
+  height: 600px;
 
   &:first-child{
     margin-left: 100px;
@@ -15,9 +16,13 @@
 
   .carousel-image {
     width: 100%;
-    height: 100%;
     max-height: 550px;
     object-fit: cover;
     object-position: top;
+  }
+
+  h3{
+    font-family: "Space";
+    margin-top: 20px;
   }
 }

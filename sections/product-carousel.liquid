@@ -1,17 +1,20 @@
 {%- render 'stylesheet', name: 'product-carousel' -%}
 
-
 <section class="product-carousel">
-    <product-carousel>
+    <product-carousel data-section-id="{{ section.id }}">
        <div class="product-carousel__wrapper">
             <div class="carousel">
-                {% for block in section.blocks %}
-                   {% if block.settings.product_image %}
-                        <div class="carousel__item">
-                            {{ block.settings.product_image | image_url: width: 2000 | image_tag: class: "carousel-image" }} 
-                        </div>
-                   {% endif %}
-                {% endfor %}
+                {% assign collection = section.settings.section_collection %}
+                {% if collection.products.size > 0 %}
+                    {% for product in collection.products %}
+                        {% if product.featured_image %}
+                             <div class="carousel__item">
+                                 {{ product.featured_image | image_url: width: 2000 | image_tag: class: "carousel-image" }} 
+                                 <h3>{{ product.title }}</h3>
+                             </div>
+                        {% endif %}
+                     {% endfor %}
+                {% endif %}
             </div>
        </div>
     </product-carousel>
@@ -20,27 +23,11 @@
 {% schema %}
     {
         "name": "Product carousel",
-        "blocks": [
+        "settings": [
             {
-                "type" : "product_item",
-                "name": "Product item block",
-                "settings": [
-                    {
-                        "type" : "image_picker",
-                        "id" : "product_image",
-                        "label" : "Product image"
-                    },
-                    {
-                        "type" : "text",
-                        "id" : "product_title",
-                        "label" : "Product title"
-                    },
-                    {
-                        "type" : "text",
-                        "id" : "product_text",
-                        "label" : "Product text"
-                    }
-                ]
+                "type" : "collection",
+                "id": "section_collection",
+                "label": "Choose collection for this section"
             }
         ],
         "presets": [

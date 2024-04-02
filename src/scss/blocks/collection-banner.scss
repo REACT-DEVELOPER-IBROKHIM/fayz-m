@@ -1,6 +1,6 @@
 .collection-banner{
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
 }
 
 .collection-header{
@@ -44,15 +44,10 @@
 }
 
 .collection__action-card{
-    background-color: #fff;
     position: absolute;
     bottom: 0;
     padding: 18px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 16px 0;
-    font-family: "Space";
+    box-sizing: border-box;
     max-width: 428px;
     width: 100%;
 
@@ -74,4 +69,29 @@
             margin-left: 10px;
         }
     }
+}
+
+.card__content{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px 0;
+    font-family: "Space";
+}
+
+.card__overlay{
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    transition: 0.2s ease-in;
+    z-index: 1;
+}
+
+.collection-banner-wrapper:hover .card__overlay{
+    height: 100%;
 }
