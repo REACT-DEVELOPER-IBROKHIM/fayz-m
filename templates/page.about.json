@@ -1,11 +1,20 @@
 {
   "sections": {
+    "banner_iF9GQE": {
+      "type": "banner",
+      "settings": {
+        "banner_poster": "shopify:\/\/shop_images\/4K3A3243_1_2_1.png",
+        "banner_image_or_video": true,
+        "banner_text": "about fayz-m"
+      }
+    },
     "whoweare_De3W8z": {
       "type": "whoweare",
       "settings": {
         "whoweare_title": "WHO WE ARE | MULTI-SECTOR TEXTILE COMPANY",
         "whoweare_text": "Transforming Fibers into Fashion: Weaving Quality, Innovation, and Elegance Together.",
-        "whoweare_url": "shopify:\/\/collections"
+        "whoweare_url": "shopify:\/\/collections",
+        "whoweare_url_text": "about our businesses"
       }
     },
     "whatweachieved_weLCkg": {
@@ -51,6 +60,7 @@
     }
   },
   "order": [
+    "banner_iF9GQE",
     "whoweare_De3W8z",
     "whatweachieved_weLCkg",
     "about_history_b4qTTP",
