@@ -19,16 +19,51 @@
     },
     "whatweachieved_weLCkg": {
       "type": "whatweachieved",
+      "blocks": {
+        "section_item_RcC9qd": {
+          "type": "section_item",
+          "settings": {
+            "achivement_image": "shopify:\/\/shop_images\/icon-cloth.svg",
+            "achivement_number": "6",
+            "achivement_number_text": "mln+",
+            "achivement_text": "products"
+          }
+        },
+        "section_item_xLLbGH": {
+          "type": "section_item",
+          "settings": {
+            "achivement_image": "shopify:\/\/shop_images\/icon-people.svg",
+            "achivement_number": "1500",
+            "achivement_number_text": "+",
+            "achivement_text": "jobs"
+          }
+        },
+        "section_item_zekNCf": {
+          "type": "section_item",
+          "settings": {
+            "achivement_image": "shopify:\/\/shop_images\/icon-handshake.svg",
+            "achivement_number": "20",
+            "achivement_number_text": "+",
+            "achivement_text": "partners"
+          }
+        },
+        "section_item_KkeXiq": {
+          "type": "section_item",
+          "settings": {
+            "achivement_image": "shopify:\/\/shop_images\/icon-energy.svg",
+            "achivement_number": "950",
+            "achivement_number_text": "kw+",
+            "achivement_text": "green energy"
+          }
+        }
+      },
+      "block_order": [
+        "section_item_RcC9qd",
+        "section_item_xLLbGH",
+        "section_item_zekNCf",
+        "section_item_KkeXiq"
+      ],
       "settings": {
-        "whatwe_achieved_title": "What we achieved",
-        "achieved_products_count": "20 mln",
-        "achieved_products_title": "PRODUCTS",
-        "achieved_jobs_count": "1500+",
-        "achieved_jobs_title": "JOBS",
-        "achieved_partners_count": "20+",
-        "achieved_partners_title": "PARTNERS",
-        "achieved_energy_count": "950kw",
-        "achieved_energy_title": "GREEN ENERGY"
       }
     },
     "about_history_b4qTTP": {
