@@ -6,42 +6,20 @@
       <h2 class="whatwe__achieved-title">{{ section.settings.whatwe_achieved_title }}</h2>
     {% endif %}
     <div class="achieved__card-wrapper">
-      <div class="achieved-card">
-        {% render 'icon-clothe' %}
-        {% if section.settings.achieved_products_count %}
-          <h3>{{ section.settings.achieved_products_count }}</h3>
-        {% endif %}
-        {% if section.settings.achieved_products_title %}
-          <p>{{ section.settings.achieved_products_title }}</p>
-        {% endif %}
-      </div>
-      <div class="achieved-card">
-        {% render 'icon-people' %}
-        {% if section.settings.achieved_jobs_count %}
-          <h3>{{ section.settings.achieved_jobs_count }}</h3>
-        {% endif %}
-        {% if section.settings.achieved_jobs_title %}
-          <p>{{ section.settings.achieved_jobs_title}}</p>
-        {% endif %}
-      </div>
-      <div class="achieved-card">
-        {% render 'icon-handshake' %}
-        {% if section.settings.achieved_partners_count %}
-          <h3>{{ section.settings.achieved_partners_count }}</h3>
-        {% endif %}
-        {% if section.settings.achieved_partners_title %}
-          <p>{{ section.settings.achieved_partners_title}}</p>
-        {% endif %}
-      </div>
-      <div class="achieved-card">
-        {% render 'icon-energy' %}
-        {% if section.settings.achieved_energy_count %}
-          <h3>{{ section.settings.achieved_energy_count }}</h3>
-        {% endif %}
-        {% if section.settings.achieved_energy_title %}
-          <p>{{ section.settings.achieved_energy_title}}</p>
-        {% endif %}
-      </div>
+      {% for block in section.blocks %}
+        <div class="achieved-card">
+          {{ block.settings.achivement_image | image_url: width: 110 | image_tag }} 
+          {% if block.settings.achivement_number %}
+            <number-counter>
+              <h3 class="number-counter" id="counter-{{ block.id }}" data-target-number="{{ block.settings.achivement_number }}">0</h3>
+              {{block.settings.achivement_number_text}}
+            </number-counter>
+          {% endif %}
+          {% if block.settings.achivement_text %}
+            <p>{{ block.settings.achivement_text }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -49,60 +27,32 @@
 {% schema %}
 {
   "name": "What we achieved",
-  "settings": [
+  "blocks": [
     {
-      "type": "text",
-      "id": "whatwe_achieved_title",
-      "label": "What we achieved title",
-      "default": "What we achieved"
-    },
-    {
-      "type": "text",
-      "id": "achieved_products_count",
-      "label": "Achieved product count",
-      "default": "20 mln"
-    },
-    {
-      "type": "text",
-      "id": "achieved_products_title",
-      "label": "Achieved product title",
-      "default": "PRODUCTS"
-    },
-    {
-      "type": "text",
-      "id": "achieved_jobs_count",
-      "label": "Achieved jobs count",
-      "default": "1500+"
-    },
-    {
-      "type": "text",
-      "id": "achieved_jobs_title",
-      "label": "Achieved jobs title",
-      "default": "JOBS"
-    },
-    {
-      "type": "text",
-      "id": "achieved_partners_count",
-      "label": "Achieved partners count",
-      "default": "20+"
-    },
-    {
-      "type": "text",
-      "id": "achieved_partners_title",
-      "label": "Achieved partners title",
-      "default": "PARTNERS"
-    },
-    {
-      "type": "text",
-      "id": "achieved_energy_count",
-      "label": "Achieved energy count",
-      "default": "950kw"
-    },
-    {
-      "type": "text",
-      "id": "achieved_energy_title",
-      "label": "Achieved energy title",
-      "default": "GREEN ENERGY"
+      "type": "section_item",
+      "name": "Section item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "achivement_image",
+          "label": "Select achivement image"
+        },
+        {
+          "type": "text",
+          "id": "achivement_number",
+          "label": "Select achivement number"
+        },
+        {
+          "type": "text",
+          "id": "achivement_number_text",
+          "label": "Select achivement number text"
+        },
+        {
+          "type": "text",
+          "id": "achivement_text",
+          "label": "Select achivement text"
+        }
+      ]
     }
   ],
   "presets": [

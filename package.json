@@ -20,6 +20,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "countup.js": "^2.8.0",
+    "gsap": "^3.12.5",
     "js-cookie": "^3.0.1",
     "keen-slider": "^6.7.0",
     "liquid-ajax-cart": "^1.10.3",
