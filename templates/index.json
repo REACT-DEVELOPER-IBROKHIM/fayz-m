@@ -164,7 +164,7 @@
       "type": "contact-form",
       "settings": {
         "discuss_title": "Let’s discuss",
-        "discuss_text": "Discuss textIf you leave your message and details we will contact you as soon as possible to get to know each other better 😊",
+        "discuss_text": "If you leave your message and details we will contact you as soon as possible to get to know each other better 😊",
         "discuss_name_input": "Your name *",
         "discuss_phone_input": "Your phone *",
         "discuss_description_input": "Your message",

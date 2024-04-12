@@ -20,6 +20,27 @@
           "navigation_starting_hours": "8:00",
           "navigation_ending_hours": "20:00"
         }
+      },
+      "contact-form": {
+        "type": "contact-form",
+        "settings": {
+          "discuss_title": "Let’s discuss",
+          "discuss_text": "If you leave your message and details we will contact you as soon as possible to get to know each other better 😊",
+          "discuss_name_input": "Your name *",
+          "discuss_phone_input": "Your phone number*",
+          "discuss_description_input": "Your message (optional)",
+          "discuss_text_btn": "contact us"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer__allright": "Footer all right text",
+          "facebook_link": "",
+          "instagram_link": "",
+          "twitter_link": "",
+          "youtube_link": ""
+        }
       }
     },
     "content_for_index": [
