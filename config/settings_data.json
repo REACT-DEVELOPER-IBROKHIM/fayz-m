@@ -35,7 +35,8 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "footer__allright": "Footer all right text",
+          "footer_logo": "shopify:\/\/shop_images\/fayz-m.svg",
+          "footer__allright": "Copyright 2024. All rights reserved!",
           "facebook_link": "",
           "instagram_link": "",
           "twitter_link": "",
