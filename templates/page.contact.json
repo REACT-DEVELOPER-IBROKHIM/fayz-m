@@ -1,0 +1,19 @@
+{
+    "sections": {
+        "banner_FPnG7w": {
+          "type": "banner",
+          "settings": {
+            "banner_poster": "shopify:\/\/shop_images\/4K3A3243_1_3.png",
+            "banner_image_or_video": true,
+            "banner_text": "faq fayz-m"
+          }
+        },
+        "Contact" : {
+            "type": "Contact"
+        }
+    },
+    "order" : [
+        "banner_FPnG7w",
+        "Contact"
+    ]
+}
