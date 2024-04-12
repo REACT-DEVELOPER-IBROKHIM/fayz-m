@@ -81,17 +81,6 @@
         "banner_text": "Dynamically developing and mastering new technologies for the production of linens and knitwear, the XO`JAOBOD FAYZ-M brand has firmly established itself in its segment. Today, the company supplies up to 20% of its products to the domestic market and up to 80% to the CIS countries: Russia, Ukraine, Kazakhstan, Kyrgyzstan, Turkmenistan. In 2014–2016, export contracts were concluded totaling more than five million US dollars. In the future, the company plans to expand and increase the number of jobs, as it intends to export yarn and linen to Asian and Western countries.",
         "banner_image": "shopify:\/\/shop_images\/356A1263_1_1.jpg"
       }
-    },
-    "contact_form_8JxcLb": {
-      "type": "contact-form",
-      "settings": {
-        "discuss_title": "Let’s discuss",
-        "discuss_text": "If you leave your message and details we will contact you as soon as possible to get to know each other better 😊",
-        "discuss_name_input": "Your name *",
-        "discuss_phone_input": "Your phone *",
-        "discuss_description_input": "Your message",
-        "discuss_text_btn": "Contact us"
-      }
     }
   },
   "order": [
@@ -99,7 +88,6 @@
     "whoweare_De3W8z",
     "whatweachieved_weLCkg",
     "about_history_b4qTTP",
-    "feature_gCV8Az",
-    "contact_form_8JxcLb"
+    "feature_gCV8Az"
   ]
 }
