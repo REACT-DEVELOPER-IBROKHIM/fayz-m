@@ -159,28 +159,6 @@
         "collection_link": "shopify:\/\/collections",
         "clothes_collection_image": "shopify:\/\/shop_images\/DSC06872.jpg"
       }
-    },
-    "contact_form_HeF97P": {
-      "type": "contact-form",
-      "settings": {
-        "discuss_title": "Let’s discuss",
-        "discuss_text": "If you leave your message and details we will contact you as soon as possible to get to know each other better 😊",
-        "discuss_name_input": "Your name *",
-        "discuss_phone_input": "Your phone *",
-        "discuss_description_input": "Your message",
-        "discuss_text_btn": "CONTACT US"
-      }
-    },
-    "footer": {
-      "type": "footer",
-      "settings": {
-        "footer_logo": "shopify:\/\/shop_images\/fayz-m.svg",
-        "footer__allright": "© 2019 FAYZ-M | All Rights Reserved",
-        "facebook_link": "",
-        "instagram_link": "",
-        "twitter_link": "",
-        "youtube_link": ""
-      }
     }
   },
   "order": [
@@ -195,8 +173,6 @@
     "product_carousel_dBeXaq",
     "new_releases_HL7H63",
     "feature_jpeHeV",
-    "clothes_collection",
-    "contact_form_HeF97P",
-    "footer"
+    "clothes_collection"
   ]
 }
