@@ -1,24 +1,31 @@
 <html>
-    <head>
-        {{ content_for_header }}
-        {%- assign common_css_url = 'common.css' | asset_url -%}
-        {%- render 'stylesheet', name: common_css_url -%}
-        {%- render 'favicon' -%}
-        <title>FAYZ-M</title>
-    </head>
-    <body>
-        {% comment %} {% render 'loader' %} {% endcomment %}
-        <component-loader class="page-wrapper">
-            {% section "announcement-bar" %}
-            {%- section 'navigation' -%}
-            <main id="main" role="main">
-                {{content_for_layout}}
-            </main>
-            {% section "contact-form" %}
-            {% section "footer" %}
-        </component-loader>
-        <script src="{{ 'js-gsap.min.js' | asset_url }}"></script>
-
-        {%- render 'component-loader' -%}
-    </body> 
+  <head>
+    {{ content_for_header }}
+    {%- assign common_css_url = 'common.css' | asset_url -%}
+    {%- render 'stylesheet', name: common_css_url -%}
+    {%- render 'favicon' -%}
+    {% if canonical_url == 'https://fayzm.uz/collections' %}
+      <title>FAYZ-M | COLLECTIONS</title>
+      <meta
+        name="description"
+        content="Explore our diverse range of collections, each offering a unique blend of textures, colors, and patterns. From timeless classics to contemporary chic, FAYZ-M Collections embodies versatility and quality, ensuring that every fabric tells a story of craftsmanship and excellence."
+      >
+    {% else %}
+      <title>{{- page_title | upcase -}}</title>
+    {% endif %}
+  </head>
+  <body>
+    {% comment %} {% render 'loader' %} {% endcomment %}
+    <component-loader class="page-wrapper">
+      {% section 'announcement-bar' %}
+      {%- section 'navigation' -%}
+      <main id="main" role="main">
+        {{ content_for_layout }}
+      </main>
+      {% section 'contact-form' %}
+      {% section 'footer' %}
+    </component-loader>
+    <script src="{{ 'js-gsap.min.js' | asset_url }}"></script>
+    {%- render 'component-loader' -%}
+  </body>
 </html>

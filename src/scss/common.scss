@@ -52,12 +52,12 @@ a{
     }
 }
 
-section[data-color-scheme="light"]{
+[data-color-scheme="light"]{
     background-color: var(--light);
     color: var(--dark) !important;
 }
 
-section[data-color-scheme="dark"]{
+[data-color-scheme="dark"]{
     background-color: var(--dark);
     color: var(--light) !important;
 }

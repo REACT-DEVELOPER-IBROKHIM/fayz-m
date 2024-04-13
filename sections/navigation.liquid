@@ -1,7 +1,7 @@
 {%- render 'stylesheet', name: 'navigation' -%}
 {%- render 'tag-script', name: 'navigation', loading: 'defer' -%}
 
-<nav id="navigation" class="navigation" role="navigation">
+<nav id="navigation" class="navigation" role="navigation" {% if template.name == 'list-collections' %} data-color-scheme="dark" {% endif %}>
     <div class="container">
         <div class="navigation__wrapper" role="img">
             <a class="navigation__logo" href={{ '/' }}>
