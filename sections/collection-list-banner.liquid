@@ -1,0 +1,25 @@
+{%- render 'stylesheet' name: 'collection-list-banner'- %}
+
+{% if section.settings.banner_image != blank %}
+        <section class="collection-list-banner" id="collection-list-banner">
+            {{ section.settings.banner_image |  image_url: width: 2000 |  image_tag   }}
+        </section>
+{% endif %} 
+
+{% schema %}
+    {
+        "name": "Collection list banner",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id" : "banner_image",
+                "label": "Banner image"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Collection list banner"
+            }
+        ]
+    }
+{% endschema %}

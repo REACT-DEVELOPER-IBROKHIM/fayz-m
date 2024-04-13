@@ -1,0 +1,33 @@
+{%- render 'stylesheet' name: 'collection-list-grid'- %}
+
+<main class="collection-grid">
+    <div class="container">
+        <h2 class="collection-grid__title">All collections</h2>
+        <section class="collections-list-grid">
+            {% for collection in section.settings.section_list %}
+                    <a class="grid__list-item" href="{{ collection.url}}">
+                        {{ collection.featured_image | image_url: width: 1400  | image_tag }}
+                        <h3>{{ collection.title }}</h3>
+                    </a>
+            {% endfor %}
+        </section>
+    </div>
+</main>
+
+{% schema %}
+    {
+        "name": "Collection list grid", 
+        "settings": [
+            {
+                "type": "collection_list",
+                "id": "section_list",
+                "label": "Collections list"
+            }
+        ],
+        "presets": [
+            {
+            "name": "Collection list grid"
+            }
+        ]
+    }
+{% endschema %}
