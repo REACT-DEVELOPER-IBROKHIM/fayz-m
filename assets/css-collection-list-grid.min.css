@@ -4,17 +4,22 @@
 
 .collection-grid__title {
   margin: 40px 0;
+  font-size: 2.4rem;
   font-family: "Space";
 }
 
 .grid__list-item {
   text-decoration: none;
-  font-family: "Space";
-  font-size: 40px;
   color: var(--dark);
   text-transform: uppercase;
   padding: 20px;
-  border: 1px solid var(--secondary-border-color);
+  border: 1px solid var(--light-border-color);
+}
+.grid__list-item h3 {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .grid__list-item:first-child {
@@ -26,7 +31,7 @@
 }
 
 .grid__list-item:first-child img {
-  height: calc(100% - 60px);
+  height: calc(100% - 115px);
 }
 
 .grid__list-item img:not(.grid__list-item:first-child img) {
@@ -42,8 +47,20 @@
   grid-area: secondary-2;
 }
 
-.grid__list-item:last-child {
+.grid__list-item:nth-child(4) {
   grid-area: secondary-3;
+}
+
+.grid__list-item:nth-child(5) {
+  grid-area: secondary-4;
+}
+
+.grid__list-item:nth-child(6) {
+  grid-area: secondary-5;
+}
+
+.grid__list-item:nth-child(7) {
+  grid-area: secondary-6;
 }
 
 .grid__list-item {
@@ -53,7 +70,7 @@
 .collections-list-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-areas: "main-1 main-1 main-1  secondary-1 secondary-1" "main-1 main-1 main-1  secondary-2 secondary-2" "main-1 main-1 main-1  secondary-3 secondary-3";
+  grid-template-areas: "main-1 main-1 main-1  secondary-1 secondary-1" "main-1 main-1 main-1  secondary-2 secondary-2" "main-1 main-1 main-1  secondary-3 secondary-3" "secondary-4 secondary-4 secondary-5 secondary-6 secondary-6";
   gap: 20px;
 }
 .collections-list-grid img {

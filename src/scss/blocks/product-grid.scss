@@ -1,0 +1,15 @@
+.product-grid-section{
+    margin: 100px 0;
+    &__title{
+        font-size: 2.4rem;
+        font-family: "Space";
+    }
+}
+
+.product-grid{
+    display: grid;
+    margin: 50px 0;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}

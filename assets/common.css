@@ -61,6 +61,7 @@
   --secondary: #f7f7f7;
   --secondary-font-color: #959494;
   --secondary-border-color: #3c3c4381;
+  --light-border-color: #91919143;
 }
 
 .partners {
@@ -217,4 +218,8 @@ a {
 [data-color-scheme=dark] {
   background-color: var(--dark);
   color: var(--light) !important;
+}
+
+#preview-bar-iframe {
+  display: none !important;
 }

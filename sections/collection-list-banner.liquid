@@ -2,6 +2,9 @@
 
 {% if section.settings.banner_image != blank %}
         <section class="collection-list-banner" id="collection-list-banner">
+            {% if section.settings.banner_text != blank %}
+                <h1 class="collection-banner__text">{{ section.settings.banner_text }}</h1>
+            {% endif %}
             {{ section.settings.banner_image |  image_url: width: 2000 |  image_tag   }}
         </section>
 {% endif %} 
@@ -14,6 +17,11 @@
                 "type": "image_picker",
                 "id" : "banner_image",
                 "label": "Banner image"
+            },
+            {
+                "type": "text",
+                "id" : "banner_text",
+                "label": "Banner text"
             }
         ],
         "presets": [

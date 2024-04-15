@@ -61,3 +61,7 @@ a{
     background-color: var(--dark);
     color: var(--light) !important;
 }
+
+#preview-bar-iframe{
+    display: none !important;
+}
