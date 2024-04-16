@@ -9,6 +9,7 @@
 }
 
 .new-releases__content {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,12 +34,12 @@
   justify-content: center;
 }
 .new-releases__banner img {
+  width: 100%;
   aspect-ratio: 1/1;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 0;
   z-index: -1;
-  height: 100%;
 }
 .new-releases__banner p {
   font-family: "Syne", sans-serif;

@@ -3,12 +3,15 @@
 <main class="product-grid-section">
     <div class="container">
         <h2 class="product-grid-section__title">{{- collection.title | upcase }} COLLECTION</h2>
-        <div class="product-grid">
-            {% paginate collection.products by 12 %}
+        {% paginate collection.products by 6 %}
+            <div class="product-grid">
                 {% for product in collection.products %}
                     {% render 'product-card', product_card: product %}
                 {% endfor %}
-            {% endpaginate %}
-        </div>
+            </div>
+            {% if paginate.pages > 1 %}
+                {% render 'pagination', paginate: paginate %}
+            {% endif %}
+        {% endpaginate %}
     </div>
 </main>
