@@ -1,67 +1,66 @@
-footer {
+.footer__wrapper {
   display: flex;
-  gap: 90px;
+  justify-content: space-between;
+  padding: 40px 0 0 0;
 }
-footer .footer__logo {
-  max-width: 200px;
-  max-height: 80px;
-}
-footer .footer__logo img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.footer__menu {
-  margin-top: 10px;
-  display: flex;
-  gap: 65px;
-}
-.footer__menu li .top-heading {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21.78px;
+.footer__wrapper a {
   color: #0A142F;
 }
-.footer__menu li .submenu {
-  margin-top: 21px;
+.footer__wrapper > ul {
   display: flex;
   flex-direction: column;
+  gap: 10px 0;
 }
-.footer__menu li .submenu li {
-  max-width: auto;
-  width: auto;
+.footer__wrapper > ul > li:first-child {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 21.7px;
+  margin-bottom: 5px;
 }
-.footer__menu li .submenu a {
-  color: #0A142F;
+.footer__wrapper > ul li {
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
-  text-transform: capitalize;
+  color: #0A142F;
 }
 
-.social-sebmenu {
-  flex-direction: row !important;
-  gap: 1rem;
+.footer__logo {
+  display: flex;
+  align-items: start;
 }
-.social-sebmenu li a {
-  height: 20px;
+.footer__logo div {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+.footer__logo p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.footer-social-logos {
+  display: flex;
+  gap: 0 10px;
+}
+.footer-social-logos a {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
 }
 
 .footer__allright {
-  margin: 55px 50px 100px 50px;
-  padding-top: 30px;
-  border-top: 1px solid #979797;
   display: flex;
-  align-items: center;
+  width: 100%;
   justify-content: center;
+  padding: 30px 0 0px 0;
 }
 .footer__allright span {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-style: 14px;
-  line-height: 16.94px;
-  text-align: center;
-  color: #0a142f;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding: 20px 0;
+  border-top: 1px solid #979797;
 }
