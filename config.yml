@@ -1,6 +1,6 @@
 development:
   password: shptka_e3b91b3422d7f13492efd319c6a3419b
-  theme_id: "135986643140"
+  theme_id: "136268775620"
   store: c29d06-cd.myshopify.com
   ignore_files:
     - config/settings_data.json

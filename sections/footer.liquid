@@ -21,7 +21,7 @@
         </div>
       </a>
       {% for link in linklists['footer'].links %}
-        <ul role="list" class="footer__menu">
+        <ul role="list" class="footer__menu footer__menu-{{ forloop.index }}">
           <li role="listitem" class="footer__menu-item">
             <a role="link" class="footer-menu-item__link" href="{{ link.url }}">{{ link.title | upcase }}</a>
           </li>
