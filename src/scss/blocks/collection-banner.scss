@@ -95,3 +95,76 @@
 .collection-banner-wrapper:hover .card__overlay{
     height: 100%;
 }
+
+@media only screen and (min-width: 1440px) {
+    .collection-banner{
+        img{
+            height: 1000px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .collection-banner{
+        img{
+            height: 500px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .collection-banner{
+        margin: 50px 0;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .collection__action-card{
+        position: static;
+    }
+
+    .card__overlay{
+        height: 0 !important;
+    }
+
+    .collection-banner{
+        img{
+            height: 450px;
+        }
+    }
+
+    .collection-header{
+        .collection-title{
+            font-size: 24px;
+        }
+    }
+
+    .collection__action-card{
+        .card-title{
+            font-size: 32px;
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .collection-banner{
+        img{
+            height: 350px;
+        }
+    }
+} 
+
+@media only screen and (max-width: 552px){
+    .collection-header{
+        padding: 20px;
+        .collection-title{
+            font-size: 20px;
+        }
+
+        .collection-description{
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.product-section__content{
+    display: flex;
+    gap: 0 50px;
+    margin: 100px 0;
+
+    .product-section__info{
+        max-width: 400px;
+        font-family: "Inter";
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0;
+        position: sticky;
+        top: 100px;
+        height: 100%;
+
+        h1{
+            font-size: 32px;
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+}

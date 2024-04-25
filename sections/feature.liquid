@@ -25,7 +25,7 @@
         src="{{ section.settings.banner_video.sources[1].url }}"></video>
       {% endif %}
       {% if section.settings.banner_image %}
-        {{ section.settings.banner_image | image_url: width: 4000  | image_tag }}
+        {{ section.settings.banner_image | image_url: width: 4000  | image_tag: class: 'difference-banner__bg' }}
       {% endif %}
       </div>
       </div>

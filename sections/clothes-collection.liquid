@@ -1,25 +1,12 @@
 {%- render 'stylesheet', name: 'clothes-collection' -%}
 
-<section id='clothes-collection' class="clothes__collection--wrapper">
-  <div class="container">
-    <div class="collection__content">
-      {% if section.settings.clothes_collection_banner_title %}
-        <h2>{{ section.settings.clothes_collection_banner_title }}</h2>
-      {% endif %}
-
-      {% if section.settings.clothes_collection_btn and section.settings.collection_link  %}
-        <a href="{{ section.settings.collection_link }}" class="link-regular"> 
-            <span>{{ section.settings.clothes_collection_btn }}</span>
-            {% render "icon-arrow-top-right-dark" %}
-        </a>
-        {% endif %}
-    </div>
-    <div class="collection__image--box">
-      {% if section.settings.clothes_collection_image %}
-        {{ section.settings.clothes_collection_image | image_url: width: 4000  | image_tag }}
-      {% endif %}
-  </div>
-  </div>
+<section id='clothes-collection' class="clothes__collection-banner">
+    {% if section.settings.clothes_collection_banner_title != blank %}
+        <h2> {{ section.settings.clothes_collection_banner_title  }} </h2>
+    {% endif %}
+    {% if section.settings.collection_link and section.settings.clothes_collection_btn %}
+        <a href="{{ section.settings.collection_link }}" class="link-regular link-regular--light">{{ section.settings.clothes_collection_btn }} {% render 'icon-arrow-top-right' %} </a>
+    {% endif %}
 </section>
 
 {% schema %}
@@ -42,11 +29,6 @@
       "type": "url",
       "id" : "collection_link",
       "label": "Clothes collection button link"
-    },
-    {
-      "type": "image_picker",
-      "id": "clothes_collection_image",
-      "label": "Banner image"
     }
   ],
   "presets": [

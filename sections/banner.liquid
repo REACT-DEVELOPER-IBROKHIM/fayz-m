@@ -24,7 +24,7 @@
             {% if section.settings.banner_text != blank %}
                 <div class="hero-banner__overlay">
                    <div class="container">
-                        <h1>{{ section.settings.banner_text }}</h1>
+                        <h1 {% if template.suffix contains 'faq' %} class="smaller-title" {% endif %}>{{ section.settings.banner_text }}</h1>
                    </div>
                 </div>
             {% endif %}

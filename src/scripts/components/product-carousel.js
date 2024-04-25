@@ -21,7 +21,7 @@ class ProductCarousel extends HTMLElement {
 
         ScrollTrigger.create({
             trigger: `[data-section-id="${this.dataset.sectionId}"] .product-carousel__wrapper`,
-            start:"top 8%",
+            start:`top 10%`,
             end: () => `+=${(getScrollAmount() + 120) * -1}`,
             pin:true,
             animation: tween,

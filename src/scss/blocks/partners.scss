@@ -27,3 +27,36 @@
     object-fit: contain;
     max-width: 300px;
 }
+
+@media only screen and (max-width: 767px) {
+    .partners__card-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+
+        img{
+            max-width: 160px;
+        }
+    }
+
+    .partners-title{
+        font-size: 34px;
+    }
+
+    .partners__card-wrapper{
+        margin-top: 36px;
+    }
+}
+
+@media only screen and (max-width: 552px) {
+    .partners-title{
+        font-size: 24px;
+    }
+
+    .partners__card-wrapper{
+        gap: 30px;
+        img{
+            max-width: 120px;
+            height:  40px;
+            object-fit: cover;
+        }
+    }
+}

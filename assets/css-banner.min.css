@@ -43,6 +43,7 @@
   left: 0;
   z-index: 2;
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   background: linear-gradient(135deg, #000 20%, rgba(0, 0, 0, 0.5280768557) 40%, rgba(255, 255, 255, 0) 76%);
   display: flex;
   align-items: flex-end;
@@ -67,4 +68,41 @@
 
 .hero-video-controller[data-video-muted=false] > svg:first-child {
   display: none;
+}
+
+@media only screen and (max-width: 1023px) {
+  .banner {
+    margin-top: -50px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2/1.1;
+  }
+  .hero-banner__overlay h1 {
+    max-width: 370px;
+    font-size: 50px;
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .banner {
+    margin-top: 0;
+  }
+  .hero-banner__overlay h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .smaller-title {
+    max-width: 300px !important;
+  }
+}
+@media only screen and (max-width: 552px) {
+  .hero-banner__overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-banner__overlay h1 {
+    margin: 0 auto;
+  }
 }

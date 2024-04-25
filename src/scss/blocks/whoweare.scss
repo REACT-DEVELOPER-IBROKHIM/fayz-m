@@ -20,3 +20,26 @@
         letter-spacing: 1.7px;
     }
 }
+
+@media only screen and (max-width: 1023px) {
+    .whowe__are-content{
+        h3{
+            font-size: 16px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .whoweare{
+        margin-top: 2rem;
+    }
+    .whowe__are-content{
+        p{
+            font-size: 16px;
+        }
+    }
+}

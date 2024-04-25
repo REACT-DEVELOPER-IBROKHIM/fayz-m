@@ -43,3 +43,47 @@
   font-family: "Inter";
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 1024px) {
+  .achieved__card-wrapper {
+    display: grid;
+    justify-content: center;
+    gap: 100px 30px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
+  }
+  .achieved-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  .achieved-card img {
+    width: 90px;
+    height: 90px;
+  }
+  .achieved-card number-counter {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .achieved-card img {
+    width: 60px;
+    height: 60px;
+  }
+  .achieved-card number-counter {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .achieved__card-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .achieved-card img {
+    width: 90px;
+    height: 90px;
+  }
+  .achieved-card number-counter {
+    font-size: 40px;
+  }
+}

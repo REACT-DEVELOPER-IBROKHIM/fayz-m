@@ -11,16 +11,17 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow-x: hidden;
-}
-
 ul{
     list-style: none;
 }
 
 a{
     text-decoration: none;
+}
+
+.no-scroll{
+    overflow: hidden;
+    position: relative;
 }
 
 .container{
@@ -50,6 +51,14 @@ a{
     svg{
         margin-left: 10px;
     }
+
+    &--light{
+        background-color: var(--light);
+        color: var(--dark);
+        svg path{
+            stroke: var(--dark);
+        }
+    }
 }
 
 [data-color-scheme="light"]{
@@ -64,4 +73,12 @@ a{
 
 #preview-bar-iframe{
     display: none !important;
+}
+
+@media only screen and (max-width: 552px){
+    .link-regular{
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
 }

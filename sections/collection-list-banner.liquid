@@ -2,10 +2,15 @@
 
 {% if section.settings.banner_image != blank %}
         <section class="collection-list-banner" id="collection-list-banner">
-            {% if section.settings.banner_text != blank %}
-                <h1 class="collection-banner__text">{{ section.settings.banner_text }}</h1>
-            {% endif %}
-            {{ section.settings.banner_image |  image_url: width: 2000 |  image_tag   }}
+           {% if section.settings.banner_image %}
+                {{ section.settings.banner_image |  image_url: width: 2000 |  image_tag: class: 'desktop-collection-banner'   }}
+           {% endif %}
+           {% if section.settings.banner_mobile %}
+             {{ section.settings.banner_mobile |  image_url: width: 2000 |  image_tag: class: 'mobile-collection-banner'   }}
+           {% endif %}
+           {% if section.settings.banner_text != blank %}
+            <h1 class="collection-banner__text">{{ section.settings.banner_text }}</h1>
+        {% endif %}
         </section>
 {% endif %} 
 
@@ -18,6 +23,11 @@
                 "id" : "banner_image",
                 "label": "Banner image"
             },
+            {
+                "type": "image_picker",
+                "id": "banner_mobile",
+                "label": "Banner mobile"
+                },
             {
                 "type": "text",
                 "id" : "banner_text",

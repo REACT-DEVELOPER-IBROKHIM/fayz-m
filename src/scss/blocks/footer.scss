@@ -1,76 +1,70 @@
-footer{
-  display: flex;
-  gap: 90px;
-
-  .footer__logo{
-    max-width: 200px;
-    max-height: 80px;
-    img{
-      width: 100%;
-      object-fit: cover;
-    }
-  }
-
+.footer{
+  font-family: "Inter";
 }
 
-.footer__menu{
-  margin-top: 10px;
+.footer__wrapper{
   display: flex;
-  gap: 65px;
-  li{
-    .top-heading{
-      font-family: 'Inter', sans-serif;
-      font-weight: 500;
+  justify-content: space-between;
+  padding: 40px 0 0 0;
+  a{
+    color: #0A142F;
+  } 
+  
+  & > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    & > li:first-child{
       font-size: 18px;
-      line-height: 21.78px;
+      font-weight: 500;
+      line-height: 21.7px;
+      margin-bottom: 5px;
+    }
+    li{
+      font-size: 14px;
+      font-weight: 400;
       color: #0A142F;
     }
-    .submenu{
-      margin-top: 21px;
-      display: flex;
-      flex-direction: column;
-      li{
-        max-width: auto;
-        width: auto;
-      }
-      a{
-        color: #0A142F;
-        font-family: 'Inter', sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 30px;
-        text-transform: capitalize;
-      }
-    }
-  }
-
-}
-
-.social-sebmenu{
-  flex-direction: row !important;
-  gap: 1rem;
-  li{
-    a{
-      height: 20px;
-    }
   }
 }
 
+.footer__logo{
+  display: flex;
+  align-items: start;
+  div{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+  }
+  p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+  }
+}
+
+
+.footer-social-logos{
+  display: flex;
+  gap: 0 10px;  
+  a{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+  } 
+}
 
 .footer__allright{
-  margin: 55px 50px 100px 50px;
-  padding-top: 30px;
-  border-top: 1px solid #979797;
   display: flex;
-  align-items: center;
+  width: 100%;
   justify-content: center;
-
+  padding: 30px 0 0px 0;
   span{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-style: 14px;
-    line-height: 16.94px;
-    text-align: center;
-    color: #0a142f;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 20px 0;
+    border-top: 1px solid #979797;
   }
 }
