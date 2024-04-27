@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-ul{
+ul:not(.product-section__content ul){
     list-style: none;
 }
 

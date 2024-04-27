@@ -1,7 +1,7 @@
 {%- render 'stylesheet', name: 'navigation' -%}
 {%- render 'tag-script', name: 'navigation', loading: 'defer' -%}
 
-<nav id="navigation" class="navigation" role="navigation" {% if template.name contains 'collection' or template.name contains 'product' or template.suffix contains 'business'  %} data-color-scheme="dark" {% endif %}>
+<nav id="navigation" class="navigation" role="navigation" {% if template.name contains 'collection' or template.name contains 'product' or template.suffix contains 'business' or template.name contains 'search'  %} data-color-scheme="dark" {% endif %}>
     <div class="container">
         <div class="navigation__wrapper" role="img">
             <button class="navigation__toggle">

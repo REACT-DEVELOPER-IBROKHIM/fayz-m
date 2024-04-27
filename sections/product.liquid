@@ -11,3 +11,13 @@
         </div>
     </div>
 </section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".product-section__info p").forEach(p => {
+            if (p.innerHTML === '') {
+                p.remove();
+            }
+        });
+    })
+</script>
