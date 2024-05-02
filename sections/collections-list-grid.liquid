@@ -2,7 +2,7 @@
 
 <main class="collection-grid">
     <div class="container">
-        <h2 class="collection-grid__title">All collections</h2>
+        <h2 class="collection-grid__title">{{  'pages.collections.title' | t }}</h2>
         <section class="collections-list-grid">
             {% for collection in section.settings.section_list %}
                     <div class="grid__list-item" >
@@ -11,7 +11,7 @@
                         </a>
                         <h3>{{ collection.title }}</h3>
                         <a class="link-regular" href="{{ collection.url}}">
-                            Explore
+                            {{ 'common.explore' | t }}
                             {% render 'icon-arrow-top-right'  %}
                         </a>
                     </div>

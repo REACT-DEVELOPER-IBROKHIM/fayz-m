@@ -2,7 +2,7 @@
 <section id="partners" class="partners">
     <div class="container">
         <div class="partners-wrapper">
-            <h2 class="partners-title">PARTNERS</h2>
+            <h2 class="partners-title">{{ 'partners.title' | t }}</h2>
             <div class="partners__card-wrapper">
                 {% for block in section.blocks %}
                     {{ block.settings.partners_image | image_url: width: 200 | image_tag }} 

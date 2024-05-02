@@ -1,6 +1,7 @@
 {%- render 'stylesheet', name: 'banner' -%}
 {%- render 'tag-script', name: 'banner', loading: 'defer' -%}
 
+
 {% if section.settings.banner_video or section.settings.banner_poster %}
     <section class="banner" id="banner" role="banner">
         {% if section.settings.banner_video != blank and section.settings.banner_image_or_video == false %}

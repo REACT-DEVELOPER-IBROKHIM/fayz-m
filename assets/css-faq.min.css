@@ -14,7 +14,7 @@ section.faq h2 {
 }
 
 .faq__item {
-  font-family: "Space";
+  font-family: var(--main-font2);
   display: flex;
   padding: 50px 60px;
   border-bottom: 1px solid var(--secondary-border-color);

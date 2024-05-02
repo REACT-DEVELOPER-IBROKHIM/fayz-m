@@ -22,7 +22,12 @@
     <div class="product-card__image">
        <div class="product-card__tags">
         {% for tag in product_card.tags %}
-          <span data-product-tag="{{ tag }}" class="product-card__tag">{{ tag }}</span>
+          <span data-product-tag="{{ tag }}" class="product-card__tag">
+            {%- if tag == 'hot' -%}
+              {%- render 'icon-flame' -%}
+            {%- endif -%}
+            {{ tag }}
+          </span>
         {% endfor %}
        </div>
           <a href="{{ product_card.url }}">

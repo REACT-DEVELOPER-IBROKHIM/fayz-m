@@ -11,14 +11,14 @@
     <form class="discuss__form">
       <div>
         {% if section.settings.discuss_name_input %}
-          <input required minlength="1" type="text" placeholder="{{ section.settings.discuss_name_input }}">
+          <input required minlength="1" type="text" name="name" placeholder="{{ section.settings.discuss_name_input }}">
         {% endif %}
         {% if section.settings.discuss_phone_input %}
-          <input required minlength="1" type="text" placeholder="{{ section.settings.discuss_phone_input }}">
+          <input required minlength="1" type="text" name="phone"  placeholder="{{ section.settings.discuss_phone_input }}">
         {% endif %}
       </div>
       {% if section.settings.discuss_description_input %}
-        <textarea placeholder="{{ section.settings.discuss_description_input }}" class="discuss__description"></textarea>
+        <textarea placeholder="{{ section.settings.discuss_description_input }}" name="message" class="discuss__description"></textarea>
       {% endif %}
       
       {% if section.settings.discuss_text_btn %}
@@ -27,6 +27,47 @@
     </form>
   </div>
 </section>
+
+<script>
+  const TOKEN = "6595123725:AAFd_qCZaAnoreUuzKmkVYQQLfJjF3KYOSE";
+  const CHAT_ID = "930351374";
+  const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+  const form = document.querySelector('.discuss__form');
+    
+  form.addEventListener("submit",  (e) => {
+    e.preventDefault();
+
+    let message = `<b>
+          Yangi mijoz: ${form.name.value}\n 
+          Tel:  <a href="tel:${form.phone.value}">${form.phone.value}</a> \n
+          Xabar: ${form.message.value} \n
+          
+          Albatta mijozga bog'laning!!!
+        </b> 
+        `
+        fetch(URI_API, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            chat_id: CHAT_ID,
+            parse_mode: "html",
+            text: message
+          })
+        }).then((res) => {
+          console.log(res)
+          if(!res.ok){
+            throw new Error('Xabar yuborilmadi. Xatolik yuz berdi')
+          }
+          form.reset()
+          alert('Xabar yuborildi')
+        })
+        .catch(() => {
+          alert('Xabar yuborilmadi. Xatolik yuz berdi')
+        })
+  })
+</script>
 
 {% schema %}
 {

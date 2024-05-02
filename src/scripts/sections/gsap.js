@@ -1,8 +1,7 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { CountUp } from "countup.js";
-gsap.registerPlugin(ScrollTrigger)
+import { Draggable } from "gsap/Draggable";
 
 window.gsap = gsap;
-window.CountUp = CountUp;
 window.ScrollTrigger = ScrollTrigger;
+window.Draggable = Draggable;

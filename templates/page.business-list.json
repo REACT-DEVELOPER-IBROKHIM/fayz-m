@@ -1,0 +1,11 @@
+{
+    "sections": {
+      "business-list": {
+        "type": "business-list"
+      }
+    },
+    "order": [
+      "business-list"
+    ]
+  }
+  

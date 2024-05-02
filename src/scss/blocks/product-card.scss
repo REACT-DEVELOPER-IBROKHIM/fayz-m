@@ -35,6 +35,8 @@
         padding: 5px 10px;
         background-color: #f9f8f842;
         font-size: 14px;
+        display: flex;
+        align-items: center;
 
         &[data-product-tag="hot"]{
             background-color: #e10e0e;
@@ -44,6 +46,12 @@
         &[data-product-tag="new"]{
             background-color: var(--dark);
             color: #fff;
+        }
+
+        svg{
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
         }
     }
 }

@@ -7,7 +7,7 @@
 
 .about-header h2 {
   font-size: 36px;
-  font-family: "Syne";
+  font-family: var(--main-font1);
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -35,7 +35,7 @@
   line-height: 32px;
 }
 .about__wrapper .content a {
-  font-family: "Space";
+  font-family: var(--main-font2);
   font-weight: 400;
   text-transform: uppercase;
 }

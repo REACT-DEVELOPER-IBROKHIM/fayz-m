@@ -19,19 +19,33 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width,initial-scale=1">
     {% endif %}
+    <script src="{{ 'js-gsap.min.js' | asset_url }}"></script>
+    <style>
+      .show-loader .loader {
+      display: block;
+      }
+
+      .loader {
+        display: none;
+      }
+    </style>
   </head>
   <body>
-    {% comment %} {% render 'loader' %} {% endcomment %}
     <component-loader class="page-wrapper">
-      {% section 'announcement-bar' %}
+      {% render 'loader' %}
       {%- section 'navigation' -%}
       <main id="main" role="main">
         {{ content_for_layout }}
       </main>
       {% section 'contact-form' %}
-      {% comment %} {% section 'footer' %} {% endcomment %}
+      {% section 'footer' %}
     </component-loader>
-    <script src="{{ 'js-gsap.min.js' | asset_url }}"></script>
     {%- render 'component-loader' -%}
+    <script>
+      if (window.location.pathname === '/' && !localStorage.getItem('loaderShown')) {
+        document.querySelector('.page-wrapper').classList.add('show-loader'); 
+        localStorage.setItem('loaderShown', 'true'); 
+      }
+    </script>
   </body>
 </html>
