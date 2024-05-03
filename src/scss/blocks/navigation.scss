@@ -6,7 +6,7 @@
 
 
 .navigation{
-    font-family: "Syne";
+    font-family: var(--main-font2);
     width: 100%;
     padding-top: 2px;
 }
@@ -35,10 +35,10 @@
 
 .menu-item{
     padding: 24px 0;
-  
+    
 }
 
-.menu-item__link{
+a.menu-item__link{
     text-decoration: none;
     color: var(--light);
     display: flex;
@@ -64,6 +64,7 @@
     opacity: 0;
     max-width: 1000px;
     margin: 0 auto;
+    font-family: var(--main-font2);
 }
 
 .menu-item:hover .submenu-wrapper{
@@ -77,11 +78,12 @@
 .submenu-item{
     padding: 10px 0;
     font-size: 20px;
-    font-family: "Inter";
 }
 
-.submenu-item__link{
+a.submenu-item__link{
+    font-weight: 400 !important;
     color: var(--dark);
+    text-transform: capitalize;
 }
 
 div[data-logo-type]{
@@ -113,13 +115,13 @@ div[data-logo-type="desktop"] > img:last-of-type{
 }
 
 .navigation__address a{
-    font-family: "Space";
+    font-family: var(--main-font2);
     font-weight: 700;
     color: var(--light);
 }
 
 .business-hours{
-    font-family: "Space";
+    font-family: var(--main-font2);
     font-size: 12px;
     color: var(--light);
 }
@@ -251,12 +253,15 @@ div[data-logo-type="mobile"]{
         height: 100vh;
         background-color: #000;
         flex-direction: column;
-        font-size: 18px; 
-        font-family: "Syne";
+        font-size: 22px; 
         z-index: 2;
         transition: 0.3s ease-in;
         padding: 20px;
         .menu-item{
+            & > a{
+                font-family: var(--main-font1) !important;
+                font-weight: 900 !important;
+            }
             padding: 12px 0;
         }
     }
@@ -391,6 +396,7 @@ div[data-logo-type="mobile"]{
             font-style: italic;
             font-size: 16px;
             color: var(--light) !important;
+            
         }
     }
 

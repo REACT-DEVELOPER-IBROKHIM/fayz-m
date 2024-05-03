@@ -5,7 +5,7 @@
 .whatwe__achieved-title {
   font-size: 50px;
   font-weight: 800;
-  font-family: "Syne";
+  font-family: var(--main-font1);
 }
 
 .achieved__card-wrapper {

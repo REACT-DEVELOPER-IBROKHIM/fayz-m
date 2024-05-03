@@ -1,14 +1,12 @@
 @import "fonts";
 @import "variables";
-@import "./blocks/partners.scss";
-@import "./blocks/whoweare.scss";
-@import "./blocks/whatweachieved.scss";
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--main-font2);
 }
 
 ul:not(.product-section__content ul){
@@ -47,7 +45,7 @@ a{
     padding: 12px 20px;
     display: inline-block;
     text-transform: uppercase;
-    font-family: "Space";
+    font-family: var(--main-font2);
     svg{
         margin-left: 10px;
     }

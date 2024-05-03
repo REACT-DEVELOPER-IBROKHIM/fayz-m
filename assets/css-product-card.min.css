@@ -31,6 +31,8 @@
   padding: 5px 10px;
   background-color: rgba(249, 248, 248, 0.2588235294);
   font-size: 14px;
+  display: flex;
+  align-items: center;
 }
 .product-card .product-card__tag[data-product-tag=hot] {
   background-color: #e10e0e;
@@ -39,6 +41,11 @@
 .product-card .product-card__tag[data-product-tag=new] {
   background-color: var(--dark);
   color: #fff;
+}
+.product-card .product-card__tag svg {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
 }
 
 .product-card__image--hover {

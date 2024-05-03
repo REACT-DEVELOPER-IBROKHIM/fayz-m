@@ -3,7 +3,7 @@
 }
 .product-grid-section__title {
   font-size: 2.4rem;
-  font-family: "Space";
+  font-family: var(--main-font2);
   transition: 0.3s;
   text-align: left;
 }

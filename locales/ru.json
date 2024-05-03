@@ -1,5 +1,26 @@
 {
     "nav" : {
          "working_hours" : "Рабочее время"
+    },
+    "partners" : {
+        "title" : "Партнеры"
+    },
+    "pages" : {
+        "faq" : {
+            "title" : "Часто задаваемые вопросы"
+        },
+        "collections" : {
+            "title" : "Все коллекции",
+            "prefix" : "коллекция"
+        },
+        "business" : {
+            "title" : "Наши бизнесы"
+        }
+    },
+    "common" : {
+        "explore" : "Исследовать",
+        "breadcrumbs" : {
+            "home" : "Главная"
+        }
     }
 }

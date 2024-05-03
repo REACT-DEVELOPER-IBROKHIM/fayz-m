@@ -1,0 +1,26 @@
+{
+    "nav" : {
+         "working_hours" : "Ish soati"
+    },
+    "partners" : {
+        "title" : "Hamkorlar"
+    },
+    "pages" : {
+        "faq" : {
+            "title" : "Ko'p so'raladigan savollar"
+        },
+        "collections" : {
+            "title" : "Barcha kolleksiyalar",
+            "prefix" : "kolleksiya"
+        },
+        "business" : {
+            "title" : "Bizning bizneslar"
+        }
+    },
+    "common" : {
+        "explore" : "Ko'rish",
+        "breadcrumbs" : {
+            "home" : "Bosh sahifa"
+        }
+    }
+ }

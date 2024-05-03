@@ -6,7 +6,6 @@ class ProductCarousel extends HTMLElement {
 
     handleHorizontalScroll(){
         const races = this.querySelector(".carousel");
-        console.log(races.offsetWidth)
         function getScrollAmount() {
             let racesWidth = races.scrollWidth + 50;
             return -(racesWidth - window.innerWidth);

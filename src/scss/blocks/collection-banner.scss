@@ -16,12 +16,14 @@
     .collection-subtitle{
         font-size: 34px;
         text-transform: uppercase;
+        font-weight: "Inter";
     }
 
     .collection-title{
         font-size: 30px;
         font-weight: 900;
         text-transform: uppercase;
+        font-family: "Syne";
     }
 
     .collection-description{
@@ -60,7 +62,6 @@
         font-family: "Inter";
         font-size: 18px;
         text-transform: uppercase;
-        font-weight: 900;
     }
 
     a{
@@ -142,6 +143,7 @@
     }
 
     .collection__action-card{
+        max-width: 100%;
         .card-title{
             font-size: 32px;
         }

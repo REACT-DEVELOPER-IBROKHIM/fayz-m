@@ -3,6 +3,7 @@
   height: calc(100vh - 40px);
   margin-top: -68px;
   position: relative;
+  background-color: #000;
 }
 
 .banner > video {
@@ -49,7 +50,7 @@
   align-items: flex-end;
   h1{
     color: #fff;
-    font-family: "Syne";
+    font-family: var(--main-font1);
     font-size: 80px;
     font-weight: 900;
     text-transform: uppercase;

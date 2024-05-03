@@ -10,7 +10,6 @@ class NumberCounter extends HTMLElement {
     countNumber(){
         let section_counter = document.querySelector('.achieved__card-wrapper');
 
-
         let CounterObserver = new IntersectionObserver((entries, observer) => {
                 let [entry] = entries;
                 if (!entry.isIntersecting) return;

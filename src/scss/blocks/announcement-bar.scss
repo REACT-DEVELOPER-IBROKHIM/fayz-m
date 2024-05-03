@@ -1,5 +1,6 @@
 .announcement-bar{
-    font-family: "Syne";
+    font-family: var(--main-font1);
+    font-weight: 400;
 }
 
 .announcement-bar__wrapper{
@@ -11,6 +12,14 @@
 }
 
 .announcement-bar__wrapper a{
-    color: var(--light) !important;
+    color: var(--dark);
     text-underline-offset: 4px;
+}
+
+.announcement-bar[data-color-scheme="dark"] a{
+    color: var(--light);
+}
+
+.announcement-bar[data-color-scheme="light"] a{
+    color: var(--dark);
 }

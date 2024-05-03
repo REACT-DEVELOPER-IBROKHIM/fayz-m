@@ -1,0 +1,50 @@
+{%- render 'stylesheet', name: 'business-list' -%}
+
+<section class="business-list" id="business-list">
+  <div class="container">
+    <h2 class="business-list__title">{{ 'pages.business.title' | t }}</h2>
+    <div class="business-list__wrapper">
+      {% for business in section.blocks %}
+        <a class="business-list__item" href="{{ business.settings.business_link }}">
+          <div class="business-list__image">
+            {{
+            business.settings.business_image
+            | image_url: width: 2000
+            | image_tag: alt: business.settings.business_text
+          }}
+          </div>
+          <p class="business-list__text">{{ business.settings.business_text }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "business-list",
+  "blocks": [
+    {
+      "type": "section_item",
+      "name": "Section item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "business_image",
+          "label": "Select business image"
+        },
+        {
+          "type": "text",
+          "id": "business_text",
+          "label": "Select business text"
+        },
+        {
+          "type": "url",
+          "id": "business_link",
+          "label": "Select business link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

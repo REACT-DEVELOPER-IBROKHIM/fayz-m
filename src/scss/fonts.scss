@@ -1,10 +1,34 @@
+@font-face{
+  font-family: "Milk", system-ui;
+  src: url("../../assets/Milk.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
-    font-family: "Syne";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../../assets/Syne-Regular.woff") format("woff");
-    font-display: swap;
-} 
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../assets/Syne-ExtraBold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/Syne-Bold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../assets/Syne-SemiBold.woff") format("woff");
+  font-display: swap;
+}
 
 @font-face {
   font-family: "Syne";
@@ -17,32 +41,8 @@
 @font-face {
   font-family: "Syne";
   font-style: normal;
-  font-weight: 600;
-  src: url("../../assets/Syne-SemiBold.woff") format("woff");
-  font-display: swap;
-} 
-
-@font-face {
-  font-family: "Syne";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../../assets/Syne-Bold.woff") format("woff");
-  font-display: swap;
-} 
-
-@font-face {
-  font-family: "Syne";
-  font-style: normal;
-  font-weight: 800;
-  src: url("../../assets/Syne-ExtraBold.woff") format("woff");
-  font-display: swap;
-} 
-
-@font-face {
-  font-family: "Space";
-  font-style: normal;
   font-weight: 400;
-  src: url("../../assets/SpaceGrotesk-Regular.woff2") format("woff2");
+  src: url("../../assets/Syne-Regular.woff") format("woff");
   font-display: swap;
 } 
 
@@ -51,6 +51,14 @@
   font-style: normal;
   font-weight: 700;
   src: url("../../assets/SpaceGrotesk-Bold.woff2") format("woff2");
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Space";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/SpaceGrotesk-Regular.woff2") format("woff2");
   font-display: swap;
 } 
 

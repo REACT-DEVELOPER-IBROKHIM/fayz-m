@@ -5,7 +5,7 @@
 .collection-grid__title {
   margin: 40px 0;
   font-size: 2.4rem;
-  font-family: "Space";
+  font-family: var(--main-font2);
 }
 
 .grid__list-item {
@@ -80,6 +80,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .collection-grid__title {
+    font-size: 2rem;
+  }
   .collections-list-grid {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "main-1 main-1 main-1 main-1" "main-1 main-1 main-1 main-1" "secondary-1 secondary-1 secondary-2 secondary-2" "secondary-3 secondary-3 secondary-3 secondary-3" "secondary-5 secondary-5 secondary-6 secondary-6";
@@ -88,8 +91,15 @@
     aspect-ratio: 1/1.5;
     height: 600px;
   }
+  .grid__list-item h3 {
+    font-size: 30px;
+  }
 }
 @media only screen and (max-width: 552px) {
+  .collection-grid__title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
   .grid__list-item img:not(.grid__list-item:first-child img) {
     aspect-ratio: 1/1;
     height: 400px;

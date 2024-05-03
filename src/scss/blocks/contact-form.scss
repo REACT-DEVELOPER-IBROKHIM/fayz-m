@@ -2,7 +2,7 @@
   margin: 100px 0;
   h2 {
     font-size: 50px;
-    font-family: "Syne";
+    font-family: var(--main-font1);
     font-weight: 800;
     line-height: 60px;
   }
@@ -90,6 +90,7 @@
   .discuss__form {
     div{
       flex-direction: column;
+      gap: 40px;
       input{
         width: 100%;
       }

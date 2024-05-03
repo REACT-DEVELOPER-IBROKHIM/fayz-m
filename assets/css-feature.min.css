@@ -9,7 +9,7 @@
 }
 .difference__wrapper .difference__content h2 {
   font-size: 50px;
-  font-family: "Syne";
+  font-family: var(--main-font1);
   font-weight: 800;
   line-height: 60px;
   text-align: center;
@@ -50,9 +50,11 @@
 @media only screen and (max-width: 767px) {
   .difference__wrapper .difference__content h2 {
     font-size: 22px;
+    line-height: 30px;
   }
   .difference__wrapper .difference__content p {
     font-size: 16px;
+    line-height: 30px;
     text-align: justify;
   }
   .difference__wrapper {
@@ -65,6 +67,5 @@
 @media only screen and (max-width: 552px) {
   .difference__wrapper .difference__content h2 {
     font-size: 20px;
-    line-height: 40px;
   }
 }
