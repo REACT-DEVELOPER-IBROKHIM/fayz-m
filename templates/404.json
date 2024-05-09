@@ -1,8 +1,17 @@
 {
-    "sections": {
-        "404": {
-            "type": "404"
-        }
-    },
-    "order": ["404"] 
+  "sections": {
+    "404": {
+      "type": "404",
+      "settings": {
+        "banner_404": "shopify:\/\/shop_images\/DSC06833_1.jpg",
+        "title_404": "404",
+        "text_404": "Page not found",
+        "button_text": "Explore others",
+        "button_link": "shopify:\/\/collections"
+      }
+    }
+  },
+  "order": [
+    "404"
+  ]
 }

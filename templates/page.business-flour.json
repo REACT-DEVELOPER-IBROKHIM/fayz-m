@@ -1,11 +1,81 @@
 {
-    "name": "Business",
-    "sections": {
-        "business-identifier": {
-            "type": "business-identifier"
-        }
+  "sections": {
+    "banner_LiYp9B": {
+      "type": "banner",
+      "settings": {
+        "banner_poster": "shopify:\/\/shop_images\/356A1235_1.jpg",
+        "banner_image_or_video": true,
+        "banner_text": "flour <br> fayz-m"
+      }
     },
-    "order": [
-        "business-identifier"
-    ]
-  }
+    "business-identifier": {
+      "type": "business-identifier",
+      "settings": {
+      }
+    },
+    "business_info_hmPjcq": {
+      "type": "business-info",
+      "blocks": {
+        "section_item_tFC8Xc": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/356A1258_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_Mb4JcD": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/356A1259_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_iGbdg9": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/356A1264_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_dATYDt": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/356A1273_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_xdF3Yx": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/356A1249_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_PbtMU9": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/356A1235_1.jpg",
+            "business_info_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "section_item_tFC8Xc",
+        "section_item_Mb4JcD",
+        "section_item_iGbdg9",
+        "section_item_dATYDt",
+        "section_item_xdF3Yx",
+        "section_item_PbtMU9"
+      ],
+      "settings": {
+        "business_info_content": "<h2>About  flour<\/h2><p><\/p><p>2022, on the basis of the project approved by the state, for the quality processing of wheat products grown in the cotton-textile cluster grain fields, in cooperation with the Turkish state, the total cost is <strong>$370,000, $270,000<\/strong> bank loan, <strong>$100,000<\/strong> at own expense to build a construction facility at the factory <strong>37.5<\/strong> tons per day, <strong>1.125<\/strong> tons per month of flour products, <strong>22.5<\/strong> tons per day, <strong>6.750<\/strong> tons per month of bran products from the processing of <strong>50<\/strong> tons per day, <strong>1500<\/strong> tons per month for our people with the help of <strong>50<\/strong> workers and providing market inflation at the same rate delivered to.<\/p>",
+        "business_info_title": "Photoes of the process"
+      }
+    }
+  },
+  "order": [
+    "banner_LiYp9B",
+    "business-identifier",
+    "business_info_hmPjcq"
+  ]
+}

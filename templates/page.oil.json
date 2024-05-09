@@ -1,11 +1,81 @@
 {
-    "name": "Business",
-    "sections": {
-        "business-identifier": {
-            "type": "business-identifier"
-        }
+  "sections": {
+    "banner_9m8F4b": {
+      "type": "banner",
+      "settings": {
+        "banner_poster": "shopify:\/\/shop_images\/LMO1469_1_a166befe-72cd-4e25-adad-82594b66d75a.jpg",
+        "banner_image_or_video": true,
+        "banner_text": "Petrol  fayz-m"
+      }
     },
-    "order": [
-        "business-identifier"
-    ]
+    "business-identifier": {
+      "type": "business-identifier",
+      "settings": {
+      }
+    },
+    "business_info_PBLwA8": {
+      "type": "business-info",
+      "blocks": {
+        "section_item_iqHk4M": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1440_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_YRpBaA": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1435_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_WH7xwy": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1494_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_66w9M8": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1483_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_ndXHhY": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1458_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_xkCAQY": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1488_1.jpg",
+            "business_info_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "section_item_iqHk4M",
+        "section_item_YRpBaA",
+        "section_item_WH7xwy",
+        "section_item_66w9M8",
+        "section_item_ndXHhY",
+        "section_item_xkCAQY"
+      ],
+      "settings": {
+        "business_info_content": "<h2>About petrol<\/h2><p><\/p><p><strong>4<\/strong> billion soums were completed on the basis of the project in Nabib massif of Khojaabad district in order to provide continuous high-quality oil and fuel products at the cotton-textile cluster enterprise. The main activity of the gas station is stocking <strong>100,000<\/strong> liters of oil products. Tanks are placed based on the permission of the relevant authorities. In addition, there are <strong>35,000<\/strong> liters of fuel tanks for the continuous supply of high-quality fuel products to the population based on a special permit. A total of <strong>7<\/strong> jobs are provided at the gas station.<\/p>",
+        "business_info_title": "Photos of the process"
+      }
+    }
+  },
+  "order": [
+    "banner_9m8F4b",
+    "business-identifier",
+    "business_info_PBLwA8"
+  ]
 }

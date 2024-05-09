@@ -1,11 +1,70 @@
 {
-    "sections": {
-      "business-list": {
-        "type": "business-list"
+  "sections": {
+    "business-list": {
+      "type": "business-list",
+      "blocks": {
+        "section_item_ieDf3K": {
+          "type": "section_item",
+          "settings": {
+            "business_image": "shopify:\/\/shop_images\/4K3A3222_1.jpg",
+            "business_text": "Garment Production",
+            "business_link": "shopify:\/\/pages\/fayz-m-garment-production"
+          }
+        },
+        "section_item_ipkLbc": {
+          "type": "section_item",
+          "settings": {
+            "business_image": "shopify:\/\/shop_images\/LMO1174_1.jpg",
+            "business_text": "Farm",
+            "business_link": "shopify:\/\/pages\/fayz-m-farm"
+          }
+        },
+        "section_item_ypxqm4": {
+          "type": "section_item",
+          "settings": {
+            "business_image": "shopify:\/\/shop_images\/LMO1469_1.jpg",
+            "business_text": "Petrol",
+            "business_link": "shopify:\/\/pages\/fayz-m-petrol"
+          }
+        },
+        "section_item_j33wqg": {
+          "type": "section_item",
+          "settings": {
+            "business_image": "shopify:\/\/shop_images\/4K3A3237_1.jpg",
+            "business_text": "Knitting",
+            "business_link": "shopify:\/\/pages\/knitting"
+          }
+        },
+        "section_item_6mzy4t": {
+          "type": "section_item",
+          "settings": {
+            "business_image": "shopify:\/\/shop_images\/356A1236_1.jpg",
+            "business_text": "Flour",
+            "business_link": "shopify:\/\/pages\/fayz-m-flour"
+          }
+        },
+        "section_item_hkGxtV": {
+          "type": "section_item",
+          "settings": {
+            "business_image": "shopify:\/\/shop_images\/LMO1675_1.jpg",
+            "business_text": "Yarn production",
+            "business_link": "shopify:\/\/pages\/fayz-m-yarn-production"
+          }
+        }
+      },
+      "block_order": [
+        "section_item_ieDf3K",
+        "section_item_ipkLbc",
+        "section_item_ypxqm4",
+        "section_item_j33wqg",
+        "section_item_6mzy4t",
+        "section_item_hkGxtV"
+      ],
+      "settings": {
       }
-    },
-    "order": [
-      "business-list"
-    ]
-  }
-  
+    }
+  },
+  "order": [
+    "business-list"
+  ]
+}

@@ -1,11 +1,81 @@
 {
-    "name": "Business",
-    "sections": {
-        "business-identifier": {
-            "type": "business-identifier"
-        }
+  "sections": {
+    "banner_DXipMz": {
+      "type": "banner",
+      "settings": {
+        "banner_poster": "shopify:\/\/shop_images\/4K3A3240.jpg",
+        "banner_image_or_video": true,
+        "banner_text": "Knitting fayz-m"
+      }
     },
-    "order": [
-        "business-identifier"
-    ]
+    "business-identifier": {
+      "type": "business-identifier",
+      "settings": {
+      }
+    },
+    "business_info_AJLQA4": {
+      "type": "business-info",
+      "blocks": {
+        "section_item_mxE6qY": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/4K3A3246.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_XPBjRU": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/4K3A3240.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_YVMCz6": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1761.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_TnA8xc": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/4K3A3230.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_EfKPbp": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/033.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_pke8A9": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1777.jpg",
+            "business_info_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "section_item_mxE6qY",
+        "section_item_XPBjRU",
+        "section_item_YVMCz6",
+        "section_item_TnA8xc",
+        "section_item_EfKPbp",
+        "section_item_pke8A9"
+      ],
+      "settings": {
+        "business_info_content": "<h2>About textiles<\/h2><p><\/p><p>According to the decision of the Cabinet of Ministers of the Republic of Uzbekistan No. 744 dated September 19, 2018, entrepreneurs who have their own weaving, sewing, spinning factories in the regions of the region are allowed to select and operate a cluster based on the recommendations of the regional governor. FAYZ-M LLC, located in Mustahkam MFY, based on the activity of 2008, based on a project planned step by step from 2012 to 2017, with a total cost of <strong>$3,000,000<\/strong> at the expense of its own funds, based on the contract concluded with TAIFAN, HonKnit, Boosan companies. Machines have been brought in and work is being carried out at full capacity with <strong>4,000<\/strong> tons. <strong>50<\/strong> jobs are provided at the weaving factory.<\/p>",
+        "business_info_title": "Photos of the process"
+      }
+    }
+  },
+  "order": [
+    "banner_DXipMz",
+    "business-identifier",
+    "business_info_AJLQA4"
+  ]
 }

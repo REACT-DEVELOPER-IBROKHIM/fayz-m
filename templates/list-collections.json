@@ -1,14 +1,27 @@
 {
   "sections": {
     "collection-list-banner": {
-      "type": "collection-list-banner"
+      "type": "collection-list-banner",
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/collection-list-banner-image.jpg",
+        "banner_mobile": "shopify:\/\/shop_images\/poster_2_1.jpg",
+        "banner_text": "EXPLORE OUR COLLECTIONS"
+      }
     },
-    "collection-list-grid" : {
-      "type" : "collection-list-grid"
+    "collections_list_grid_4TA7qQ": {
+      "type": "collections-list-grid",
+      "settings": {
+        "section_list": [
+          "women",
+          "men",
+          "hoodies",
+          "shirts"
+        ]
+      }
     }
   },
   "order": [
     "collection-list-banner",
-    "collection-list-grid"
+    "collections_list_grid_4TA7qQ"
   ]
 }

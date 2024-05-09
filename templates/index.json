@@ -4,6 +4,7 @@
       "type": "banner",
       "settings": {
         "banner_video": "shopify:\/\/files\/videos\/Fayz M Textile - Textile Company in Uzbekistan-4k n.mp4",
+        "banner_poster": "shopify:\/\/shop_images\/Screenshot_2024-03-17_at_13.32.04.png",
         "banner_image_or_video": false,
         "banner_text": ""
       }
@@ -75,8 +76,8 @@
         "about_title": "about us",
         "about_text_left": "FAYZ-M is mainly a textile manufacturer located in Uzbekistan, Andijan. We have many different high quality and in demand products and services. We are recognized internationally and export our goods to several countries.",
         "about_text_right": "How we work: Seed production, raw cotton production, cotton processing, oil production, flour production, cotton spinning, fabric production, ready-made knitwear and animal husbandry.",
-        "about_link_left_url": "shopify:\/\/pages\/contact",
-        "about_link_right_url": "shopify:\/\/pages\/contact",
+        "about_link_left_url": "shopify:\/\/pages\/about",
+        "about_link_right_url": "shopify:\/\/pages\/fayz-m-businesses",
         "about_link_text_right": "About the process",
         "about_link_text_left": "About the company",
         "about_image_right": "shopify:\/\/shop_images\/4K3A3191-min_1.jpg",
@@ -105,7 +106,7 @@
     "new_releases_HijC4a": {
       "type": "new-releases",
       "settings": {
-        "new-releases_title": "KEEP THE FASHION",
+        "new-releases_title": "LOVE THE FASHION",
         "new-released_link": "Know more",
         "new-releases_link_left_url": "shopify:\/\/collections",
         "new-releases_image-right": "shopify:\/\/shop_images\/4K3A0338_1_1.jpg",
@@ -116,12 +117,12 @@
     "collection_banner_UExiWf": {
       "type": "collection-banner",
       "settings": {
-        "carousel_banner_subtitle": "sport colection",
-        "carousel_banner_title": "“GO EXTREME”",
+        "carousel_banner_subtitle": "men colection",
+        "carousel_banner_title": "\"Elevate Your Look!\"",
         "carousel_banner_description": "Wear for running, cardio and training. Wear without fear of damaging or tearing.",
         "banner_desktop": "shopify:\/\/shop_images\/4K3A0030_1.jpg",
-        "carousel_banner_card_title": "SPORT COLLECTION",
-        "carousel_banner_card_text": "MADE FOR EXTREME ACTIONS",
+        "carousel_banner_card_title": "MEN COLLECTION",
+        "carousel_banner_card_text": "MADE WIDTH HIGH QUALITY",
         "card_text": "Know more",
         "card_url": "shopify:\/\/collections"
       }
@@ -135,7 +136,7 @@
     "new_releases_HL7H63": {
       "type": "new-releases",
       "settings": {
-        "new-releases_title": "KEEP THE POWER",
+        "new-releases_title": "IT IS SNUG",
         "new-released_link": "know more",
         "new-releases_link_left_url": "shopify:\/\/pages\/about",
         "new-releases_image-right": "shopify:\/\/shop_images\/DSC06540.jpg",
@@ -146,9 +147,9 @@
     "feature_jpeHeV": {
       "type": "feature",
       "settings": {
-        "banner_title": "WE HAVE DIFFERENT DNA",
-        "banner_text": "Discover the DNA of style with Fayz-m Textile Company. From vibrant hues to timeless classics, our collection boasts a kaleidoscope of colors to suit every taste. Unveil your fashion identity with our exquisite range of garments. Embrace diversity, express yourself, and redefine elegance with Fayz-m.",
-        "banner_video": "shopify:\/\/files\/videos\/7aa8b2635c5d40bfa5b5d2071f4a0732 (1).mp4"
+        "banner_title": "CLOURFUL, COZY AND LOVED",
+        "banner_text": "From luxuriously soft fabrics to durable materials, each piece is engineered to offer you the utmost in both style and comfort. Whether it's our cozy loungewear, versatile activewear, or stylish everyday essentials, every item is a testament to our commitment to excellence.",
+        "banner_video": "shopify:\/\/files\/videos\/0418.mp4"
       }
     },
     "clothes_collection": {
@@ -156,8 +157,7 @@
       "settings": {
         "clothes_collection_banner_title": "LARGE COLLECTION OF CLOTHES",
         "clothes_collection_btn": "Know more",
-        "collection_link": "shopify:\/\/collections",
-        "clothes_collection_image": "shopify:\/\/shop_images\/DSC06872.jpg"
+        "collection_link": "shopify:\/\/collections"
       }
     }
   },

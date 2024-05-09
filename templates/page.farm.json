@@ -1,11 +1,81 @@
 {
-    "name": "Business",
-    "sections": {
-        "business-identifier": {
-            "type": "business-identifier"
-        }
+  "sections": {
+    "business-identifier": {
+      "type": "business-identifier",
+      "settings": {
+      }
     },
-    "order": [
-        "business-identifier"
-    ]
+    "banner_taXcfi": {
+      "type": "banner",
+      "settings": {
+        "banner_poster": "shopify:\/\/shop_images\/LMO1105_1.jpg",
+        "banner_image_or_video": true,
+        "banner_text": "FARM FAYZ-M"
+      }
+    },
+    "business_info_egAxDG": {
+      "type": "business-info",
+      "blocks": {
+        "section_item_QHTJHa": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1155_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_4EfMjg": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1124_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_PHweGY": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1211_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_iYAFyM": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1191_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_rhNmWi": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1131_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_LKJTjU": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1071_1.jpg",
+            "business_info_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "section_item_QHTJHa",
+        "section_item_4EfMjg",
+        "section_item_PHweGY",
+        "section_item_iYAFyM",
+        "section_item_rhNmWi",
+        "section_item_LKJTjU"
+      ],
+      "settings": {
+        "business_info_content": "<h2>About the farm<\/h2><p><\/p><p>In 2018, the Zakirjon Ota livestock farm with 30 head of cattle was established under the cotton-textile cluster. In 2021-2022, 200 breeding cows and 100 breeding bulls are contracted from the Netherlands and Switzerland. In 2023, 10 breeding mares and 10 stallions were brought from Poland for the establishment of additional livestock breeding, in addition, there are 600 breeders and 100 breeding rams in the livestock breeding. For these livestock, it is planned to plant and harvest corn and barley crops from our grain fields under our cluster enterprise to stock up repeated fodder fodder. The aim is to provide the population with cheap milk and meat. There are 13 regular pet care jobs.<\/p>",
+        "business_info_title": "Photos of the process"
+      }
+    }
+  },
+  "order": [
+    "business-identifier",
+    "banner_taXcfi",
+    "business_info_egAxDG"
+  ]
 }

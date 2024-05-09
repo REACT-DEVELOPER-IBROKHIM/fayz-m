@@ -6,7 +6,7 @@
         "settings": {
           "announcement_bar_content": "<p>Contact us for better and great deals. <a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact\">Contact<\/a><\/p>",
           "announcement_bar_show": true,
-          "announcement_bar_color_select": "dark"
+          "announcement_bar_color_select": "light"
         }
       },
       "navigation": {
@@ -15,10 +15,12 @@
           "navigation_logo_placeholder_text": "FAYZ-M",
           "navigation_logo_dark": "shopify:\/\/shop_images\/fayz-m.svg",
           "navigation_logo_light": "shopify:\/\/shop_images\/fayz-m_c070765b-74e9-4505-80fd-f7571a45eb55.svg",
+          "navigation_logo_mobile_dark": "shopify:\/\/shop_images\/logo-mobile-dark.svg",
+          "navigation_logo_mobile_light": "shopify:\/\/shop_images\/logo-mobile-light.svg",
           "navigation_logo_alt_text": "FAYZ-M logo descriptiom",
-          "store_phone_number": "+9981234567",
-          "navigation_starting_hours": "8:00",
-          "navigation_ending_hours": "20:00"
+          "store_phone_number": "+998 94-260-00-00",
+          "navigation_starting_hours": "",
+          "navigation_ending_hours": "24 hours"
         }
       },
       "contact-form": {
@@ -35,12 +37,16 @@
       "footer": {
         "type": "footer",
         "settings": {
+          "footer_logo_placeholder_text": "fayz-m",
+          "footer_logo_subtitle_text": "textile",
           "footer_logo": "shopify:\/\/shop_images\/fayz-m.svg",
-          "footer__allright": "Copyright 2024. All rights reserved!",
-          "facebook_link": "",
-          "instagram_link": "",
+          "phone_number": 998942600000,
+          "office_number": 998940871111,
+          "facebook_link": "https:\/\/www.facebook.com\/fayzm.textile.uz\/",
+          "instagram_link": "https:\/\/www.instagram.com\/fayztextile.uz\/",
           "twitter_link": "",
-          "youtube_link": ""
+          "youtube_link": "https:\/\/www.youtube.com\/@tpma_uz",
+          "footer__allright": "© Copyright 2024. All rights reserved!"
         }
       }
     },

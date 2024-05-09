@@ -1,11 +1,81 @@
- {
-   "name": "Business",
-   "sections": {
-       "business-identifier": {
-           "type": "business-identifier"
-       }
-   },
-   "order": [
-       "business-identifier"
-   ]
- }
+{
+  "sections": {
+    "banner_jeiAT3": {
+      "type": "banner",
+      "settings": {
+        "banner_poster": "shopify:\/\/shop_images\/LMO1543_1.jpg",
+        "banner_image_or_video": true,
+        "banner_text": "YARN fayz-m"
+      }
+    },
+    "business-identifier": {
+      "type": "business-identifier",
+      "settings": {
+      }
+    },
+    "business_info_MtFF4A": {
+      "type": "business-info",
+      "blocks": {
+        "section_item_CjtTMU": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1675_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_kDfVpd": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1539_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_jcKyKg": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1593.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_dbWxLR": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1563_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_mJPPRw": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1619_1.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_dgcXyn": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/LMO1708_1.jpg",
+            "business_info_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "section_item_CjtTMU",
+        "section_item_kDfVpd",
+        "section_item_jcKyKg",
+        "section_item_dbWxLR",
+        "section_item_mJPPRw",
+        "section_item_dgcXyn"
+      ],
+      "settings": {
+        "business_info_content": "<h2>About the production of kalava<\/h2><p><\/p><p>According to the decision of the President of the Republic of Uzbekistan in 2022, to ensure the execution of the assignment on attracting foreign investment and on the basis of the project approved by the Ministry of Investment, the project cost is <strong>$15,000,000<\/strong>, <strong>$12,000,000<\/strong> bank loan, <strong>$3,000,0000<\/strong> own funds. It was fully commissioned in the 1st quarter of 2023, which was spent on the completion of the construction facility. The annual capacity of <strong>5,400<\/strong> tons of gribinnoy kalava yarn is produced. It is planned to create a reserve for the weaving factory established under the cluster enterprise of kalava yarns, where it is produced. Provide <strong>300<\/strong> jobs based on the created project.<\/p>",
+        "business_info_title": "Photos of the process"
+      }
+    }
+  },
+  "order": [
+    "banner_jeiAT3",
+    "business-identifier",
+    "business_info_MtFF4A"
+  ]
+}

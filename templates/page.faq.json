@@ -14,43 +14,43 @@
         "faq_item_DkRCFE": {
           "type": "faq_item",
           "settings": {
-            "faq_title": " Zakaz berishning minimalniy miqdori qancha?",
-            "faq_text": "Minimalniy partiya bitta rang va bitta model uchun 3000 dona. Kamroq bo’lsa ham qilib berishimiz mumkin unda narx ko’tariladi."
+            "faq_title": "What is the minimum order quantity?",
+            "faq_text": "The minimum batch is 3000 pcs for one color and one model. We can make it even less, but the price will increase."
           }
         },
         "faq_item_z6AmRx": {
           "type": "faq_item",
           "settings": {
-            "faq_title": "To’lov usullari qanday bajariladi?",
-            "faq_text": "Klient zakaz bergandan keyin oldindan 30% to’lov qiladi va zakaz tayyorlash boshlanadi. Mahsulot tayyor bo’lgandan keyin 70% to’lov qiladi va olib chiqib ketishi mumkin."
+            "faq_title": "What are the payment methods?",
+            "faq_text": "After placing an order, the client pays 30% in advance and the preparation of the order begins. After the product is ready, he pays 70% and can take it out."
           }
         },
         "faq_item_wnqXjf": {
           "type": "faq_item",
           "settings": {
-            "faq_title": "O’zimizning brend bilan ham mahsulot tayyorlab bera olasizlarmi?",
-            "faq_text": "Xa albatta tayyorlab beramiz"
+            "faq_title": "Can you make products with our own brand?",
+            "faq_text": "Yes, we will definitely prepare it"
           }
         },
         "faq_item_Ki4D4y": {
           "type": "faq_item",
           "settings": {
-            "faq_title": "To’lov amalga oshirilgandan so’ng, mahsulot tayyor bo’lishi davomiyligi qancha?",
-            "faq_text": "To’lov amalga oshirilgandan so’ng o’rtacha 2-2.5 oy mobaynida klient zakazi tayyor bo’ladi. Undan ham ertaroq qilish imkoni bor buni alohida suhbat orqali ma’lum qilamiz."
+            "faq_title": "How long does it take for the product to be ready after payment?",
+            "faq_text": "After the payment is made, the client's order will be ready within 2-2.5 months on average. It is possible to do it even earlier, we will let you know in a separate conversation."
           }
         },
         "faq_item_EnpjPJ": {
           "type": "faq_item",
           "settings": {
-            "faq_title": "Zakaz olish jarayoni va zakaz tayyorlanayotkan jarayonda kim bilan aloqada turamiz?",
-            "faq_text": "Zakaz olinishidan oldin sizga tayyorlanadigan mahsulot uchun maxsus namuna tayyorlanib sizning roziligingiz olinadi va sizga 1ta sotuv meneger bog’lanib beriladi. Siz bilan har kuni aloqada turadi va sizning har qanday savollaringizga javob beradi, zakazingiz bo’yincha kunlik ma’lumotlarini yetkazadi."
+            "faq_title": "Who do we contact during the order process and the order preparation process?",
+            "faq_text": "Before the order is received, a special sample for the product to be prepared for you will be prepared and your approval will be obtained, and 1 sales manager will contact you. He will be in contact with you every day and will answer any of your questions, provide daily information on your order."
           }
         },
         "faq_item_kHaKjY": {
           "type": "faq_item",
           "settings": {
-            "faq_title": "O’zingiz individual dizayn ham tayyorlab bera olasizmi?",
-            "faq_text": "Xa albatta. Agar sizga dizayn kerak bo’lsa tayyorlab beramiz va shu dizaynni faqat siz uchun ishlab chiqarish bo’yicha shartnoma qilishimiz mumkin."
+            "faq_title": "Can you make an individual design yourself?",
+            "faq_text": "Yes, of course. If you need a design, we will prepare it, and we can make a contract for the production of this design just for you."
           }
         }
       },

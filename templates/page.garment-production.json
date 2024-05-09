@@ -1,11 +1,81 @@
 {
-    "name": "Business",
-    "sections": {
-        "business-identifier": {
-            "type": "business-identifier"
-        }
+  "sections": {
+    "banner_4ExUBx": {
+      "type": "banner",
+      "settings": {
+        "banner_poster": "shopify:\/\/shop_images\/4K3A3222_1.jpg",
+        "banner_image_or_video": true,
+        "banner_text": "garment fayz-m"
+      }
     },
-    "order": [
-        "business-identifier"
-    ]
+    "business-identifier": {
+      "type": "business-identifier",
+      "settings": {
+      }
+    },
+    "business_info_PfUtCJ": {
+      "type": "business-info",
+      "blocks": {
+        "section_item_czUGa8": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/4K3A3226.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_TmXVat": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/4K3A3146.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_Ly3JGq": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/4K3A3044.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_LkrXKg": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/4K3A3018.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_wcd3BV": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/4K3A3041.jpg",
+            "business_info_title": ""
+          }
+        },
+        "section_item_WiEzeW": {
+          "type": "section_item",
+          "settings": {
+            "business_info_image": "shopify:\/\/shop_images\/4K3A3197.jpg",
+            "business_info_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "section_item_czUGa8",
+        "section_item_TmXVat",
+        "section_item_Ly3JGq",
+        "section_item_LkrXKg",
+        "section_item_wcd3BV",
+        "section_item_WiEzeW"
+      ],
+      "settings": {
+        "business_info_content": "<h2>ABOUT THE GARMENT<\/h2><p><\/p><p>According to the decision of the Cabinet of Ministers of the Republic of Uzbekistan No. 744 dated September 19, 2018, entrepreneurs who have their own weaving, sewing, spinning factories in the regions of the region are allowed to select and operate a cluster based on the recommendations of the regional governor. FAYZ-M LLC, located in Mustahkam MFY district, operated with 6 units of machines and 10 employees until 2008, during the period of its activity, within the framework of expansion of export potential, based on the project of the 2017 state program, <strong>$10,000,000, $9,000,000<\/strong> bank loan, <strong>$1,000,000<\/strong> own a sewing factory was started at the expense of funds. An annual capacity of <strong>20<\/strong> million units of finished products is produced and exported based on contracts concluded with various countries. Currently, <strong>700<\/strong> jobs are provided at the sewing factory.<\/p>",
+        "business_info_title": "Photos of the process"
+      }
+    }
+  },
+  "order": [
+    "banner_4ExUBx",
+    "business-identifier",
+    "business_info_PfUtCJ"
+  ]
 }

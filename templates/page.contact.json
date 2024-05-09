@@ -15,21 +15,21 @@
           "type": "contact_item",
           "settings": {
             "contact_type": "Address",
-            "contact_content": "<p>Andijon, Khjuabod, 20<\/p>"
+            "contact_content": "<p>Uzbekistan, Andijan, Khojaobod, Mustahkam 17<\/p>"
           }
         },
         "contact_item_Qez8Ta": {
           "type": "contact_item",
           "settings": {
             "contact_type": "Phone number",
-            "contact_content": "<p><a href=\"tel:+998901234567\" title=\"tel:+998901234567\">+998901234567<\/a><\/p>"
+            "contact_content": "<p><a href=\"tel:+99894 260 00 00\" title=\"tel:+99894 260 00 00\">+99894 260 00 00<\/a><\/p><p><a href=\"tel:+99893 087 11 11\" title=\"tel:+99893 087 11 11\">+99893 087 11 11<\/a><\/p>"
           }
         },
         "contact_item_fdrQYF": {
           "type": "contact_item",
           "settings": {
             "contact_type": "Email",
-            "contact_content": "<p><a href=\"mailto:fayzm@gmail.com\" title=\"mailto:fayzm@gmail.com\">fayzm@gmail.com<\/a><\/p>"
+            "contact_content": "<p><a href=\"mailto:fayz-mtex@mail.ru\" target=\"_blank\" title=\"mailto:fayz-mtex@mail.ru\">fayz-mtex@mail.ru<\/a><\/p>"
           }
         }
       },
