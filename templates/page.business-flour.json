@@ -1,0 +1,11 @@
+{
+    "name": "Business",
+    "sections": {
+        "business-identifier": {
+            "type": "business-identifier"
+        }
+    },
+    "order": [
+        "business-identifier"
+    ]
+  }

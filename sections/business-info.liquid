@@ -1,0 +1,69 @@
+{% render 'stylesheet', name: 'business-info' %}
+
+<section class="business-info">
+  <div class="container">
+    <div class="business-info">
+      <div class="business-info__content">
+        {% if section.settings.business_info_content != blank %}
+            {{ section.settings.business_info_content }}
+        {% endif %}
+      </div>
+      {% if section.settings.business_info_title != blank %}
+        <h3>{{ section.settings.business_info_title }}</h3>
+      {% endif %}
+     <div class="business-info__images">
+      {% for block in section.blocks %}
+       <div class="business-info__image">
+        {{ block.settings.business_info_image | image_url: width: 2000 | image_tag }}
+        {% if block.settings.business_info_title != blank %}
+          <p>{{ block.settings.business_info_title }}</p>
+        {% endif %}
+       </div>
+      {% endfor %}
+     </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+    "name": "Business info",
+    "settings": [
+        {
+            "type": "richtext",
+            "id": "business_info_content",
+            "label": "Business info content"
+        },
+        {
+            "type": "text",
+            "id": "business_info_title",
+            "label": "Business info title",
+            "default": "Business info title"
+        }    
+    ],
+    "blocks": [
+        {
+            "type": "section_item",
+            "name": "Business info image block",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "business_info_image",
+                    "label": "Select business info image"
+                },
+                {
+                    "type": "text",
+                    "id": "business_info_title",
+                    "label": "Select business info title"
+
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Business info"
+        }
+    ]
+}
+{% endschema %}

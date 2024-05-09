@@ -1,8 +1,8 @@
 .banner {
   display: flex;
   height: calc(100vh - 40px);
-  margin-top: -68px;
-  position: relative;
+  margin-top: -108px;
+  position: relative; 
   background-color: #000;
 }
 
@@ -109,7 +109,10 @@
     justify-content: center;
     text-align: center;
     h1{
-      margin: 0 auto;
+      font-size: 30px;
+      margin: 0px auto;
+      margin-top: 50px;
+      max-width: 250px;
     }
   }
 }

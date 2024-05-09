@@ -80,7 +80,10 @@
         </div>
     </div>
 </nav> 
-{%  render 'breadcrumbs', visible: true %}
+
+{% if template.name != "index" %}
+    {%  render 'breadcrumbs', visible: true %}
+{% endif %}
 
 {% schema %}
 {
