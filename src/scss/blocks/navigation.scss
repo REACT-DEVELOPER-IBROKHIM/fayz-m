@@ -53,6 +53,7 @@ a.menu-item__link{
     top: 100%;
     width: 100vw;
     left: 0;
+    z-index: 4;
     transition: .3s;
     background-color: var(--light);
 }
@@ -254,7 +255,7 @@ div[data-logo-type="mobile"]{
         background-color: #000;
         flex-direction: column;
         font-size: 22px; 
-        z-index: 2;
+        z-index: 7;
         transition: 0.3s ease-in;
         padding: 20px;
         .menu-item{

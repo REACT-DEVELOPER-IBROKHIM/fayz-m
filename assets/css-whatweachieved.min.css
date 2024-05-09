@@ -74,6 +74,9 @@
   .achieved-card number-counter {
     font-size: 30px;
   }
+  .achieved-card p {
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 400px) {
   .achieved__card-wrapper {
